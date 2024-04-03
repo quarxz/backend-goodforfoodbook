@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "660d0a352d8accaeb6822b24"
+  },
+  "name": "salate"
+},
+{
+  "_id": {
+    "$oid": "660d0a352d8accaeb6822b25"
+  },
+  "name": "pizza"
+},
+{
+  "_id": {
+    "$oid": "660d0a352d8accaeb6822b26"
+  },
+  "name": "pasta"
+},
+{
+  "_id": {
+    "$oid": "660d0a352d8accaeb6822b27"
+  },
+  "name": "linsen"
+}]

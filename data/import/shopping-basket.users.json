@@ -1,0 +1,56 @@
+[
+  {
+    "_id": {
+      "$oid": "65e5a98c3fd0f135269eabac"
+    },
+    "email": "falk@test.com",
+    "password": "12345-6",
+    "name": { "firstname": "falk", "lastname": "koenig" },
+    "address": {
+      "street": "Die Strasse",
+      "number": 137,
+      "postcode": "51234",
+      "city": "Bonn"
+    },
+    "activeMember": true,
+    "primaryNutrationType": "flexitarien",
+    "recipes": [],
+    "stock": []
+  },
+  {
+    "_id": {
+      "$oid": "65e5a9f13fd0f135269eabae"
+    },
+    "email": "anna@test.com",
+    "password": "12345-7",
+    "name": { "firstname": "anna", "lastname": "dent" },
+    "address": {
+      "street": "Die andere Strasse",
+      "number": 24,
+      "postcode": "21234",
+      "city": "Buxdehude"
+    },
+    "activeMember": false,
+    "primaryNutrationType": "vegan",
+    "recipes": [],
+    "stock": []
+  },
+  {
+    "_id": {
+      "$oid": "65e5aaab3fd0f135269eabb2"
+    },
+    "email": "max@test.com",
+    "password": "12345-8",
+    "name": { "firstname": "max", "lastname": "mustermann" },
+    "address": {
+      "street": "HafenCity",
+      "number": 1,
+      "postcode": "20457",
+      "city": "Hamburg"
+    },
+    "activeMember": false,
+    "primaryNutrationType": "carnivore",
+    "recipes": [],
+    "stock": []
+  }
+]

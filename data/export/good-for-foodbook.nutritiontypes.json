@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "660c673a2d8accaeb6822afb"
+  },
+  "name": "vegan"
+},
+{
+  "_id": {
+    "$oid": "660c673a2d8accaeb6822afc"
+  },
+  "name": "vegetarisch"
+},
+{
+  "_id": {
+    "$oid": "660c673a2d8accaeb6822afd"
+  },
+  "name": "low carb"
+},
+{
+  "_id": {
+    "$oid": "660c673a2d8accaeb6822afe"
+  },
+  "name": "laktosefrei"
+},
+{
+  "_id": {
+    "$oid": "660c673a2d8accaeb6822aff"
+  },
+  "name": "glutenfrei"
+}]

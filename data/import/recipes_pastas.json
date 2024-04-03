@@ -1,0 +1,55 @@
+[
+  {
+    "category": "pasta",
+    "name": "Spaghetti Carbonara",
+    "rezeptart": "klassisch",
+    "ernaehrungsart": "Laktosefrei",
+    "zutaten": [
+      { "name": "Spaghetti", "menge": "250g" },
+      { "name": "Speck", "menge": "100g" },
+      { "name": "Eier", "menge": "2 Stück" },
+      { "name": "Parmesan", "menge": "50g" },
+      { "name": "Pfeffer", "menge": "nach Geschmack" },
+      { "name": "Salz", "menge": "nach Geschmack" }
+    ],
+    "zubereitung": "Die Spaghetti al dente kochen. Den Speck in einer Pfanne knusprig braten. Die Eier verquirlen und mit dem geriebenen Parmesan vermengen. Die heißen Spaghetti mit dem Speck vermischen und die Ei-Parmesan-Mischung unterrühren. Mit Salz und Pfeffer abschmecken und servieren.",
+    "bewertung": 5
+  },
+  {
+    "category": "pasta",
+    "name": "Penne all'Arrabbiata",
+    "rezeptart": "klassisch",
+    "ernaehrungsart": "vegetarisch",
+    "zutaten": [
+      { "name": "Penne", "menge": "250g" },
+      { "name": "Tomaten", "menge": "400g (Dose)" },
+      { "name": "Knoblauch", "menge": "2 Zehen" },
+      { "name": "Chiliflocken", "menge": "1 TL" },
+      { "name": "Olivenöl", "menge": "2 EL" },
+      { "name": "Salz", "menge": "nach Geschmack" },
+      { "name": "Pfeffer", "menge": "nach Geschmack" }
+    ],
+    "zubereitung": "Die Penne al dente kochen. In einer Pfanne Olivenöl erhitzen und den Knoblauch darin anschwitzen. Die Tomaten aus der Dose hinzufügen und etwa 10 Minuten köcheln lassen. Mit Salz, Pfeffer und Chiliflocken würzen. Die abgetropften Penne hinzufügen und gut vermengen. Heiß servieren.",
+    "bewertung": 4
+  },
+  {
+    "category": "pasta",
+    "name": "Vegane Spaghetti Bolognese",
+    "rezeptart": "gesund",
+    "ernaehrungsart": "vegan",
+    "zutaten": [
+      { "name": "Spaghetti", "menge": "250g" },
+      { "name": "Linsen", "menge": "200g" },
+      { "name": "Tomaten", "menge": "400g (Dose)" },
+      { "name": "Karotten", "menge": "2 Stück" },
+      { "name": "Zwiebeln", "menge": "1 Stück" },
+      { "name": "Knoblauch", "menge": "2 Zehen" },
+      { "name": "Tomatenmark", "menge": "2 EL" },
+      { "name": "Olivenöl", "menge": "2 EL" },
+      { "name": "Salz", "menge": "nach Geschmack" },
+      { "name": "Pfeffer", "menge": "nach Geschmack" }
+    ],
+    "zubereitung": "Die Spaghetti al dente kochen. In einer Pfanne Olivenöl erhitzen und die gehackten Zwiebeln und Knoblauch darin anschwitzen. Die Karotten fein reiben und hinzufügen. Die Linsen und das Tomatenmark hinzufügen und kurz anbraten. Die Dosentomaten hinzufügen und etwa 20 Minuten köcheln lassen. Mit Salz und Pfeffer abschmecken. Die abgetropften Spaghetti mit der Bolognese-Sauce servieren.",
+    "bewertung": 5
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "category": "pizza",
+    "name": "Margherita",
+    "rezeptart": "klassisch",
+    "ernaehrungsart": "vegetarisch",
+    "zutaten": [
+      { "name": "Pizzateig", "menge": "1 Stück" },
+      { "name": "Tomatensauce", "menge": "200g" },
+      { "name": "Mozzarella", "menge": "125g" },
+      { "name": "Basilikumblätter", "menge": "nach Bedarf" }
+    ],
+    "zubereitung": "Den Pizzateig ausrollen, mit Tomatensauce bestreichen und Mozzarella darüber verteilen. Im vorgeheizten Ofen bei 220°C etwa 10-12 Minuten backen, bis der Käse goldbraun ist. Vor dem Servieren mit frischen Basilikumblättern garnieren.",
+    "bewertung": 5
+  },
+  {
+    "category": "pizza",
+    "name": "Vegetarische Pizza mit Paprika",
+    "rezeptart": "gesund",
+    "ernaehrungsart": "vegetarisch",
+    "zutaten": [
+      { "name": "Pizzateig", "menge": "1 Stück" },
+      { "name": "Tomatensauce", "menge": "200g" },
+      { "name": "Paprika", "menge": "1 Stück" },
+      { "name": "Zwiebeln", "menge": "1 Stück" },
+      { "name": "Oliven", "menge": "50g" },
+      { "name": "Mozzarella", "menge": "125g" }
+    ],
+    "zubereitung": "Den Pizzateig mit Tomatensauce bestreichen. Paprika und Zwiebeln in Scheiben schneiden und auf der Pizza verteilen. Oliven und Mozzarella darüber streuen. Im vorgeheizten Ofen bei 220°C etwa 10-12 Minuten backen, bis der Rand goldbraun ist. Vor dem Servieren kurz abkühlen lassen.",
+    "bewertung": 4
+  },
+  {
+    "category": "pizza",
+    "name": "Low Carb Blumenkohl-Pizza",
+    "rezeptart": "gesund",
+    "ernaehrungsart": "Low Carb",
+    "zutaten": [
+      { "name": "Blumenkohl", "menge": "1 Kopf" },
+      { "name": "Eier", "menge": "2 Stück" },
+      { "name": "Mozzarella", "menge": "125g" },
+      { "name": "Tomatensauce", "menge": "200g" },
+      { "name": "Oregano", "menge": "1 TL" }
+    ],
+    "zubereitung": "Den Blumenkohl in kleine Röschen zerteilen und in einem Mixer zerkleinern, bis er die Konsistenz von Reis hat. Den Blumenkohl in einem Küchentuch ausdrücken, um überschüssige Feuchtigkeit zu entfernen. Mit den Eiern vermengen und auf einem Backblech zu einem dünnen Boden ausrollen. Im vorgeheizten Ofen bei 200°C etwa 15-20 Minuten backen, bis der Boden goldbraun ist. Mit Tomatensauce, Mozzarella und Oregano belegen und weitere 10 Minuten backen, bis der Käse geschmolzen ist. Vor dem Servieren kurz abkühlen lassen.",
+    "bewertung": 4
+  }
+]

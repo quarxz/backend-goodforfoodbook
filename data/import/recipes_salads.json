@@ -1,0 +1,59 @@
+[
+  {
+    "category": "salat",
+    "name": "Griechischer Salat",
+    "rezeptart": "klassisch",
+    "ernaehrungsart": "vegetarisch",
+    "zutaten": [
+      { "name": "Tomaten", "menge": "2 Stück" },
+      { "name": "Gurken", "menge": "1 Stück" },
+      { "name": "Oliven", "menge": "50g" },
+      { "name": "Feta-Käse", "menge": "100g" },
+      { "name": "Rote Zwiebeln", "menge": "1 Stück" },
+      { "name": "Olivenöl", "menge": "2 EL" },
+      { "name": "Salz", "menge": "nach Geschmack" },
+      { "name": "Pfeffer", "menge": "nach Geschmack" },
+      { "name": "Oregano", "menge": "1 TL" }
+    ],
+    "zubereitung": "Alle Zutaten waschen und klein schneiden. In einer Schüssel vermengen und mit Olivenöl, Salz, Pfeffer und Oregano würzen. Gut durchmischen und vor dem Servieren kaltstellen.",
+    "bewertung": 4
+  },
+  {
+    "category": "salat",
+    "name": "Gemischter Salat",
+    "rezeptart": "gesund",
+    "ernaehrungsart": "vegan",
+    "zutaten": [
+      { "name": "Blattsalat", "menge": "150g" },
+      { "name": "Tomaten", "menge": "2 Stück" },
+      { "name": "Gurken", "menge": "1 Stück" },
+      { "name": "Paprika", "menge": "1 Stück" },
+      { "name": "Rote Zwiebeln", "menge": "1 Stück" },
+      { "name": "Olivenöl", "menge": "2 EL" },
+      { "name": "Balsamico-Essig", "menge": "1 EL" },
+      { "name": "Salz", "menge": "nach Geschmack" },
+      { "name": "Pfeffer", "menge": "nach Geschmack" }
+    ],
+    "zubereitung": "Salat waschen und in eine Schüssel geben. Tomaten, Gurken, Paprika und Zwiebeln in Scheiben schneiden und zum Salat geben. Mit Olivenöl, Balsamico-Essig, Salz und Pfeffer würzen. Gut durchmischen und servieren.",
+    "bewertung": 5
+  },
+  {
+    "category": "salat",
+    "name": "Couscous-Salat",
+    "rezeptart": "schnell",
+    "ernaehrungsart": "vegetarisch",
+    "zutaten": [
+      { "name": "Couscous", "menge": "200g" },
+      { "name": "Tomaten", "menge": "2 Stück" },
+      { "name": "Gurken", "menge": "1 Stück" },
+      { "name": "Rote Zwiebeln", "menge": "1 Stück" },
+      { "name": "Frische Petersilie", "menge": "1/2 Bund" },
+      { "name": "Zitrone (Saft)", "menge": "1 Stück" },
+      { "name": "Olivenöl", "menge": "2 EL" },
+      { "name": "Salz", "menge": "nach Geschmack" },
+      { "name": "Pfeffer", "menge": "nach Geschmack" }
+    ],
+    "zubereitung": "Couscous nach Packungsanleitung zubereiten und abkühlen lassen. Tomaten, Gurken und Zwiebeln klein schneiden. Petersilie fein hacken. Alle Zutaten vermengen und mit Zitronensaft, Olivenöl, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
+    "bewertung": 4
+  }
+]

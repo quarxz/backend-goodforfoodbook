@@ -1,0 +1,524 @@
+[{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b32"
+  },
+  "category": "salat",
+  "name": "Griechischer Salat",
+  "recipeType": "klassisch",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "name": "Tomaten",
+      "menge": "2 Stück"
+    },
+    {
+      "name": "Gurken",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Oliven",
+      "menge": "50g"
+    },
+    {
+      "name": "Feta-Käse",
+      "menge": "100g"
+    },
+    {
+      "name": "Rote Zwiebeln",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Oregano",
+      "menge": "1 TL"
+    }
+  ],
+  "preparing": "Alle Zutaten waschen und klein schneiden. In einer Schüssel vermengen und mit Olivenöl, Salz, Pfeffer und Oregano würzen. Gut durchmischen und vor dem Servieren kaltstellen.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b33"
+  },
+  "category": "salat",
+  "name": "Gemischter Salat",
+  "recipeType": "gesund",
+  "nutrationType": "vegan",
+  "ingredients": [
+    {
+      "name": "Blattsalat",
+      "menge": "150g"
+    },
+    {
+      "name": "Tomaten",
+      "menge": "2 Stück"
+    },
+    {
+      "name": "Gurken",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Paprika",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Rote Zwiebeln",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Balsamico-Essig",
+      "menge": "1 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "nach Geschmack"
+    }
+  ],
+  "preparing": "Salat waschen und in eine Schüssel geben. Tomaten, Gurken, Paprika und Zwiebeln in Scheiben schneiden und zum Salat geben. Mit Olivenöl, Balsamico-Essig, Salz und Pfeffer würzen. Gut durchmischen und servieren.",
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b34"
+  },
+  "category": "salat",
+  "name": "Couscous-Salat",
+  "recipeType": "schnell",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "name": "Couscous",
+      "menge": "200g"
+    },
+    {
+      "name": "Tomaten",
+      "menge": "2 Stück"
+    },
+    {
+      "name": "Gurken",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Rote Zwiebeln",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Frische Petersilie",
+      "menge": "1/2 Bund"
+    },
+    {
+      "name": "Zitrone (Saft)",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "nach Geschmack"
+    }
+  ],
+  "preparing": "Couscous nach Packungsanleitung zubereiten und abkühlen lassen. Tomaten, Gurken und Zwiebeln klein schneiden. Petersilie fein hacken. Alle Zutaten vermengen und mit Zitronensaft, Olivenöl, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b35"
+  },
+  "category": "pizza",
+  "name": "Margherita",
+  "recipeType": "klassisch",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "name": "Pizzateig",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Tomatensauce",
+      "menge": "200g"
+    },
+    {
+      "name": "Mozzarella",
+      "menge": "125g"
+    },
+    {
+      "name": "Basilikumblätter",
+      "menge": "nach Bedarf"
+    }
+  ],
+  "preparing": "Den Pizzateig ausrollen, mit Tomatensauce bestreichen und Mozzarella darüber verteilen. Im vorgeheizten Ofen bei 220°C etwa 10-12 Minuten backen, bis der Käse goldbraun ist. Vor dem Servieren mit frischen Basilikumblättern garnieren.",
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b36"
+  },
+  "category": "pizza",
+  "name": "Vegetarische Pizza mit Paprika",
+  "recipeType": "gesund",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "name": "Pizzateig",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Tomatensauce",
+      "menge": "200g"
+    },
+    {
+      "name": "Paprika",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Zwiebeln",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Oliven",
+      "menge": "50g"
+    },
+    {
+      "name": "Mozzarella",
+      "menge": "125g"
+    }
+  ],
+  "preparing": "Den Pizzateig mit Tomatensauce bestreichen. Paprika und Zwiebeln in Scheiben schneiden und auf der Pizza verteilen. Oliven und Mozzarella darüber streuen. Im vorgeheizten Ofen bei 220°C etwa 10-12 Minuten backen, bis der Rand goldbraun ist. Vor dem Servieren kurz abkühlen lassen.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b37"
+  },
+  "category": "pizza",
+  "name": "Low Carb Blumenkohl-Pizza",
+  "recipeType": "gesund",
+  "nutrationType": "Low Carb",
+  "ingredients": [
+    {
+      "name": "Blumenkohl",
+      "menge": "1 Kopf"
+    },
+    {
+      "name": "Eier",
+      "menge": "2 Stück"
+    },
+    {
+      "name": "Mozzarella",
+      "menge": "125g"
+    },
+    {
+      "name": "Tomatensauce",
+      "menge": "200g"
+    },
+    {
+      "name": "Oregano",
+      "menge": "1 TL"
+    }
+  ],
+  "preparing": "Den Blumenkohl in kleine Röschen zerteilen und in einem Mixer zerkleinern, bis er die Konsistenz von Reis hat. Den Blumenkohl in einem Küchentuch ausdrücken, um überschüssige Feuchtigkeit zu entfernen. Mit den Eiern vermengen und auf einem Backblech zu einem dünnen Boden ausrollen. Im vorgeheizten Ofen bei 200°C etwa 15-20 Minuten backen, bis der Boden goldbraun ist. Mit Tomatensauce, Mozzarella und Oregano belegen und weitere 10 Minuten backen, bis der Käse geschmolzen ist. Vor dem Servieren kurz abkühlen lassen.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b38"
+  },
+  "category": "pasta",
+  "name": "Spaghetti Carbonara",
+  "recipeType": "klassisch",
+  "nutrationType": "Laktosefrei",
+  "ingredients": [
+    {
+      "name": "Spaghetti",
+      "menge": "250g"
+    },
+    {
+      "name": "Speck",
+      "menge": "100g"
+    },
+    {
+      "name": "Eier",
+      "menge": "2 Stück"
+    },
+    {
+      "name": "Parmesan",
+      "menge": "50g"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Salz",
+      "menge": "nach Geschmack"
+    }
+  ],
+  "preparing": "Die Spaghetti al dente kochen. Den Speck in einer Pfanne knusprig braten. Die Eier verquirlen und mit dem geriebenen Parmesan vermengen. Die heißen Spaghetti mit dem Speck vermischen und die Ei-Parmesan-Mischung unterrühren. Mit Salz und Pfeffer abschmecken und servieren.",
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b39"
+  },
+  "category": "pasta",
+  "name": "Penne all'Arrabbiata",
+  "recipeType": "klassisch",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "name": "Penne",
+      "menge": "250g"
+    },
+    {
+      "name": "Tomaten",
+      "menge": "400g (Dose)"
+    },
+    {
+      "name": "Knoblauch",
+      "menge": "2 Zehen"
+    },
+    {
+      "name": "Chiliflocken",
+      "menge": "1 TL"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "nach Geschmack"
+    }
+  ],
+  "preparing": "Die Penne al dente kochen. In einer Pfanne Olivenöl erhitzen und den Knoblauch darin anschwitzen. Die Tomaten aus der Dose hinzufügen und etwa 10 Minuten köcheln lassen. Mit Salz, Pfeffer und Chiliflocken würzen. Die abgetropften Penne hinzufügen und gut vermengen. Heiß servieren.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b3a"
+  },
+  "category": "pasta",
+  "name": "Vegane Spaghetti Bolognese",
+  "recipeType": "gesund",
+  "nutrationType": "vegan",
+  "ingredients": [
+    {
+      "name": "Spaghetti",
+      "menge": "250g"
+    },
+    {
+      "name": "Linsen",
+      "menge": "200g"
+    },
+    {
+      "name": "Tomaten",
+      "menge": "400g (Dose)"
+    },
+    {
+      "name": "Karotten",
+      "menge": "2 Stück"
+    },
+    {
+      "name": "Zwiebeln",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Knoblauch",
+      "menge": "2 Zehen"
+    },
+    {
+      "name": "Tomatenmark",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "nach Geschmack"
+    }
+  ],
+  "preparing": "Die Spaghetti al dente kochen. In einer Pfanne Olivenöl erhitzen und die gehackten Zwiebeln und Knoblauch darin anschwitzen. Die Karotten fein reiben und hinzufügen. Die Linsen und das Tomatenmark hinzufügen und kurz anbraten. Die Dosentomaten hinzufügen und etwa 20 Minuten köcheln lassen. Mit Salz und Pfeffer abschmecken. Die abgetropften Spaghetti mit der Bolognese-Sauce servieren.",
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b3b"
+  },
+  "category": "lentils",
+  "name": "Linsensuppe",
+  "recipeType": "klassisch",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "name": "Linsen",
+      "menge": "200g"
+    },
+    {
+      "name": "Karotten",
+      "menge": "2 Stück"
+    },
+    {
+      "name": "Sellerie",
+      "menge": "1 Stange"
+    },
+    {
+      "name": "Zwiebeln",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Knoblauch",
+      "menge": "2 Zehen"
+    },
+    {
+      "name": "Gemüsebrühe",
+      "menge": "1 Liter"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "nach Geschmack"
+    }
+  ],
+  "preparing": "Zwiebeln und Knoblauch fein hacken und in Olivenöl anschwitzen. Karotten und Sellerie in kleine Würfel schneiden und dazugeben. Linsen und Gemüsebrühe hinzufügen und ca. 20 Minuten köcheln lassen, bis die Linsen weich sind. Mit Salz und Pfeffer abschmecken und servieren.",
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b3c"
+  },
+  "category": "lentils",
+  "name": "Linsen-Gemüsepfanne",
+  "recipeType": "gesund",
+  "nutrationType": "vegan",
+  "ingredients": [
+    {
+      "name": "Linsen",
+      "menge": "250g"
+    },
+    {
+      "name": "Zucchini",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Paprika",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Zwiebeln",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Knoblauch",
+      "menge": "2 Zehen"
+    },
+    {
+      "name": "Tomaten",
+      "menge": "2 Stück"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "nach Geschmack"
+    }
+  ],
+  "preparing": "Zwiebeln und Knoblauch in Olivenöl anbraten. Gemüse klein schneiden und dazugeben. Linsen hinzufügen und ca. 15 Minuten köcheln lassen, bis das Gemüse gar ist. Mit Salz und Pfeffer abschmecken und servieren.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660d0c9b2d8accaeb6822b3d"
+  },
+  "category": "lentils",
+  "name": "Linsensalat mit Feta",
+  "recipeType": "schnell",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "name": "Linsen",
+      "menge": "200g"
+    },
+    {
+      "name": "Feta-Käse",
+      "menge": "100g"
+    },
+    {
+      "name": "Tomaten",
+      "menge": "2 Stück"
+    },
+    {
+      "name": "Gurken",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Rote Zwiebeln",
+      "menge": "1 Stück"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Balsamico-Essig",
+      "menge": "1 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "nach Geschmack"
+    }
+  ],
+  "preparing": "Linsen kochen und abkühlen lassen. Tomaten, Gurken und Zwiebeln in Würfel schneiden. Feta-Käse zerbröckeln. Alle Zutaten vermengen und mit Olivenöl, Balsamico-Essig, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
+  "rating": 4
+}]

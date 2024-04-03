@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "660d0abd2d8accaeb6822b2a"
+  },
+  "name": "einfach"
+},
+{
+  "_id": {
+    "$oid": "660d0abd2d8accaeb6822b2b"
+  },
+  "name": "gesund"
+},
+{
+  "_id": {
+    "$oid": "660d0abd2d8accaeb6822b2c"
+  },
+  "name": "günstig"
+},
+{
+  "_id": {
+    "$oid": "660d0abd2d8accaeb6822b2d"
+  },
+  "name": "klassisch"
+},
+{
+  "_id": {
+    "$oid": "660d0abd2d8accaeb6822b2e"
+  },
+  "name": "schnell"
+}]

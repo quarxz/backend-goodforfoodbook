@@ -1,0 +1,59 @@
+[
+  {
+    "category": "lentils",
+    "name": "Linsensuppe",
+    "rezeptart": "klassisch",
+    "ernaehrungsart": "vegetarisch",
+    "zutaten": [
+      { "name": "Linsen", "menge": "200g" },
+      { "name": "Karotten", "menge": "2 Stück" },
+      { "name": "Sellerie", "menge": "1 Stange" },
+      { "name": "Zwiebeln", "menge": "1 Stück" },
+      { "name": "Knoblauch", "menge": "2 Zehen" },
+      { "name": "Gemüsebrühe", "menge": "1 Liter" },
+      { "name": "Olivenöl", "menge": "2 EL" },
+      { "name": "Salz", "menge": "nach Geschmack" },
+      { "name": "Pfeffer", "menge": "nach Geschmack" }
+    ],
+    "zubereitung": "Zwiebeln und Knoblauch fein hacken und in Olivenöl anschwitzen. Karotten und Sellerie in kleine Würfel schneiden und dazugeben. Linsen und Gemüsebrühe hinzufügen und ca. 20 Minuten köcheln lassen, bis die Linsen weich sind. Mit Salz und Pfeffer abschmecken und servieren.",
+    "bewertung": 5
+  },
+  {
+    "category": "lentils",
+    "name": "Linsen-Gemüsepfanne",
+    "rezeptart": "gesund",
+    "ernaehrungsart": "vegan",
+    "zutaten": [
+      { "name": "Linsen", "menge": "250g" },
+      { "name": "Zucchini", "menge": "1 Stück" },
+      { "name": "Paprika", "menge": "1 Stück" },
+      { "name": "Zwiebeln", "menge": "1 Stück" },
+      { "name": "Knoblauch", "menge": "2 Zehen" },
+      { "name": "Tomaten", "menge": "2 Stück" },
+      { "name": "Olivenöl", "menge": "2 EL" },
+      { "name": "Salz", "menge": "nach Geschmack" },
+      { "name": "Pfeffer", "menge": "nach Geschmack" }
+    ],
+    "zubereitung": "Zwiebeln und Knoblauch in Olivenöl anbraten. Gemüse klein schneiden und dazugeben. Linsen hinzufügen und ca. 15 Minuten köcheln lassen, bis das Gemüse gar ist. Mit Salz und Pfeffer abschmecken und servieren.",
+    "bewertung": 4
+  },
+  {
+    "category": "lentils",
+    "name": "Linsensalat mit Feta",
+    "rezeptart": "schnell",
+    "ernaehrungsart": "vegetarisch",
+    "zutaten": [
+      { "name": "Linsen", "menge": "200g" },
+      { "name": "Feta-Käse", "menge": "100g" },
+      { "name": "Tomaten", "menge": "2 Stück" },
+      { "name": "Gurken", "menge": "1 Stück" },
+      { "name": "Rote Zwiebeln", "menge": "1 Stück" },
+      { "name": "Olivenöl", "menge": "2 EL" },
+      { "name": "Balsamico-Essig", "menge": "1 EL" },
+      { "name": "Salz", "menge": "nach Geschmack" },
+      { "name": "Pfeffer", "menge": "nach Geschmack" }
+    ],
+    "zubereitung": "Linsen kochen und abkühlen lassen. Tomaten, Gurken und Zwiebeln in Würfel schneiden. Feta-Käse zerbröckeln. Alle Zutaten vermengen und mit Olivenöl, Balsamico-Essig, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
+    "bewertung": 4
+  }
+]
