@@ -1,0 +1,328 @@
+[
+  [
+    {
+      "_id": {
+        "$oid": "660e7ed74923c1fa2b3cea12"
+      },
+      "category": "salat",
+      "name": "Griechischer Salat",
+      "recipeType": "klassisch",
+      "nutrationType": "vegetarisch",
+      "ingredients": [
+        [
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b72"
+            },
+            "name": "Blattsalat",
+            "unit": "g",
+            "category": "salate"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b69"
+            },
+            "name": "Tomaten",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6a"
+            },
+            "name": "Gurken",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b73"
+            },
+            "name": "Paprika",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6d"
+            },
+            "name": "Rote Zwiebeln",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6e"
+            },
+            "name": "Olivenöl",
+            "unit": "EL",
+            "category": "oel"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b74"
+            },
+            "name": "Balsamico-Essig",
+            "unit": "EL",
+            "category": "essig"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6f"
+            },
+            "name": "Salz",
+            "unit": "",
+            "category": "gewuerze"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b70"
+            },
+            "name": "Pfeffer",
+            "unit": "",
+            "category": "gewuerze"
+          }
+        ],
+        [
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b72"
+            },
+            "name": "Blattsalat",
+            "unit": "g",
+            "category": "salate"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b69"
+            },
+            "name": "Tomaten",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6a"
+            },
+            "name": "Gurken",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b73"
+            },
+            "name": "Paprika",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6d"
+            },
+            "name": "Rote Zwiebeln",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6e"
+            },
+            "name": "Olivenöl",
+            "unit": "EL",
+            "category": "oel"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b74"
+            },
+            "name": "Balsamico-Essig",
+            "unit": "EL",
+            "category": "essig"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6f"
+            },
+            "name": "Salz",
+            "unit": "",
+            "category": "gewuerze"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b70"
+            },
+            "name": "Pfeffer",
+            "unit": "",
+            "category": "gewuerze"
+          }
+        ]
+      ],
+      "preparing": "Alle Zutaten waschen und klein schneiden. In einer Schüssel vermengen und mit Olivenöl, Salz, Pfeffer und Oregano würzen. Gut durchmischen und vor dem Servieren kaltstellen.",
+      "rating": 4
+    }
+  ],
+  [
+    {
+      "_id": {
+        "$oid": "660e7ed74923c1fa2b3cea13"
+      },
+      "category": "salat",
+      "name": "Gemischter Salat",
+      "recipeType": "gesund",
+      "nutrationType": "vegan",
+      "ingredients": [
+        [
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b72"
+            },
+            "name": "Blattsalat",
+            "unit": "g",
+            "category": "salate"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b69"
+            },
+            "name": "Tomaten",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6a"
+            },
+            "name": "Gurken",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b73"
+            },
+            "name": "Paprika",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6d"
+            },
+            "name": "Rote Zwiebeln",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6e"
+            },
+            "name": "Olivenöl",
+            "unit": "EL",
+            "category": "oel"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b74"
+            },
+            "name": "Balsamico-Essig",
+            "unit": "EL",
+            "category": "essig"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6f"
+            },
+            "name": "Salz",
+            "unit": "",
+            "category": "gewuerze"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b70"
+            },
+            "name": "Pfeffer",
+            "unit": "",
+            "category": "gewuerze"
+          }
+        ],
+        [
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b72"
+            },
+            "name": "Blattsalat",
+            "unit": "g",
+            "category": "salate"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b69"
+            },
+            "name": "Tomaten",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6a"
+            },
+            "name": "Gurken",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b73"
+            },
+            "name": "Paprika",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6d"
+            },
+            "name": "Rote Zwiebeln",
+            "unit": "Stück",
+            "category": "gemuese"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6e"
+            },
+            "name": "Olivenöl",
+            "unit": "EL",
+            "category": "oel"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b74"
+            },
+            "name": "Balsamico-Essig",
+            "unit": "EL",
+            "category": "essig"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b6f"
+            },
+            "name": "Salz",
+            "unit": "",
+            "category": "gewuerze"
+          },
+          {
+            "_id": {
+              "$oid": "660d5a422d8accaeb6822b70"
+            },
+            "name": "Pfeffer",
+            "unit": "",
+            "category": "gewuerze"
+          }
+        ]
+      ],
+      "preparing": "Salat waschen und in eine Schüssel geben. Tomaten, Gurken, Paprika und Zwiebeln in Scheiben schneiden und zum Salat geben. Mit Olivenöl, Balsamico-Essig, Salz und Pfeffer würzen. Gut durchmischen und servieren.",
+      "rating": 5
+    }
+  ]
+]

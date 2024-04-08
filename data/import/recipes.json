@@ -103,8 +103,8 @@
       { "name": "Salz", "quantity": "nach Geschmack", "unit": "" },
       { "name": "Pfeffer", "quantity": "nach Geschmack", "unit": "" }
     ],
-    "Zubereitung": "Den Pizzateig mit Tomatensauce bestreichen. Das Gemüse auf der Pizza verteilen und mit frischen Kräutern bestreuen. Mit Olivenöl beträufeln und mit Salz und Pfeffer würzen. Im vorgeheizten Ofen bei 200°C etwa 15-20 Minuten backen.",
-    "Bewertung": 4
+    "preparing": "Den Pizzateig mit Tomatensauce bestreichen. Das Gemüse auf der Pizza verteilen und mit frischen Kräutern bestreuen. Mit Olivenöl beträufeln und mit Salz und Pfeffer würzen. Im vorgeheizten Ofen bei 200°C etwa 15-20 Minuten backen.",
+    "rating": 4
   },
   {
     "category": "pizza",
@@ -177,8 +177,8 @@
       { "name": "Pfeffer", "quantity": "nach Geschmack", "unit": "" },
       { "name": "Parmesan (optional)", "quantity": "nach Geschmack", "unit": "" }
     ],
-    "Zubereitung": "Penne al dente kochen. Tomaten und Basilikum fein hacken, Knoblauch pressen. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Tomaten hinzufügen und kurz braten. Gekochte Penne hinzufügen und mit Salz und Pfeffer würzen. Mit frisch geriebenem Parmesan bestreuen und servieren.",
-    "Bewertung": 4
+    "preparing": "Penne al dente kochen. Tomaten und Basilikum fein hacken, Knoblauch pressen. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Tomaten hinzufügen und kurz braten. Gekochte Penne hinzufügen und mit Salz und Pfeffer würzen. Mit frisch geriebenem Parmesan bestreuen und servieren.",
+    "rating": 4
   },
   {
     "category": "pasta",
@@ -197,8 +197,8 @@
       { "name": "Pfeffer", "quantity": "nach Geschmack", "unit": "" },
       { "name": "Italienische Kräuter", "quantity": "nach Geschmack", "unit": "" }
     ],
-    "Zubereitung": "Gemüse in Würfel schneiden. Knoblauch fein hacken. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Gemüse hinzufügen und bissfest braten. Gekochte Spaghetti untermischen und mit Salz, Pfeffer und italienischen Kräutern abschmecken. Sofort servieren.",
-    "Bewertung": 4
+    "preparing": "Gemüse in Würfel schneiden. Knoblauch fein hacken. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Gemüse hinzufügen und bissfest braten. Gekochte Spaghetti untermischen und mit Salz, Pfeffer und italienischen Kräutern abschmecken. Sofort servieren.",
+    "rating": 4
   },
   {
     "category": "pasta",
@@ -276,8 +276,8 @@
       { "name": "Pfeffer", "quantity": "nach Geschmack", "unit": "" },
       { "name": "Kreuzkümmel", "quantity": 1, "unit": "TL" }
     ],
-    "Zubereitung": "Zwiebeln und Knoblauch fein hacken. Kartoffeln und Karotten in Würfel schneiden. In einem Topf Olivenöl erhitzen, Zwiebeln und Knoblauch anschwitzen. Kartoffeln und Karotten hinzufügen und kurz anbraten. Linsen, Gemüsebrühe, Tomatenmark und Gewürze hinzufügen. Zum Kochen bringen und etwa 20-25 Minuten köcheln lassen, bis die Linsen und das Gemüse weich sind. Vor dem Servieren abschmecken und heiß servieren.",
-    "Bewertung": 5
+    "preparing": "Zwiebeln und Knoblauch fein hacken. Kartoffeln und Karotten in Würfel schneiden. In einem Topf Olivenöl erhitzen, Zwiebeln und Knoblauch anschwitzen. Kartoffeln und Karotten hinzufügen und kurz anbraten. Linsen, Gemüsebrühe, Tomatenmark und Gewürze hinzufügen. Zum Kochen bringen und etwa 20-25 Minuten köcheln lassen, bis die Linsen und das Gemüse weich sind. Vor dem Servieren abschmecken und heiß servieren.",
+    "rating": 5
   },
   {
     "category": "lentils",
@@ -316,8 +316,8 @@
       { "name": "Pfeffer", "quantity": "nach Geschmack", "unit": "" },
       { "name": "Korianderblätter", "quantity": "zum Garnieren", "unit": "" }
     ],
-    "Zubereitung": "Zwiebeln, Knoblauch und Ingwer fein hacken. In einem Topf Olivenöl erhitzen, Zwiebeln, Knoblauch und Ingwer anschwitzen. Currypaste hinzufügen und kurz anbraten. Tomaten in Würfel schneiden und hinzufügen. Rote Linsen und Kokosmilch hinzufügen. Zum Kochen bringen und etwa 15-20 Minuten köcheln lassen, bis die Linsen weich sind. Vor dem Servieren mit Salz und Pfeffer abschmecken und mit frischen Korianderblättern garnieren.",
-    "Bewertung": 4
+    "preparing": "Zwiebeln, Knoblauch und Ingwer fein hacken. In einem Topf Olivenöl erhitzen, Zwiebeln, Knoblauch und Ingwer anschwitzen. Currypaste hinzufügen und kurz anbraten. Tomaten in Würfel schneiden und hinzufügen. Rote Linsen und Kokosmilch hinzufügen. Zum Kochen bringen und etwa 15-20 Minuten köcheln lassen, bis die Linsen weich sind. Vor dem Servieren mit Salz und Pfeffer abschmecken und mit frischen Korianderblättern garnieren.",
+    "rating": 4
   },
   {
     "category": "lentils",
@@ -335,7 +335,7 @@
       { "name": "Salz", "quantity": "nach Geschmack", "unit": "" },
       { "name": "Pfeffer", "quantity": "nach Geschmack", "unit": "" }
     ],
-    "Zubereitung": "Avocado schälen und in Scheiben schneiden. Tomaten und rote Zwiebel in Scheiben schneiden. Tortilla Wraps nach Packungsanleitung erwärmen. Mit Avocado, Tomaten, roter Zwiebel und gekochten Linsen belegen. Mit Limettensaft beträufeln und mit Salz und Pfeffer würzen. Mit frischen Korianderblättern garnieren, einrollen und servieren.",
-    "Bewertung": 4
+    "preparing": "Avocado schälen und in Scheiben schneiden. Tomaten und rote Zwiebel in Scheiben schneiden. Tortilla Wraps nach Packungsanleitung erwärmen. Mit Avocado, Tomaten, roter Zwiebel und gekochten Linsen belegen. Mit Limettensaft beträufeln und mit Salz und Pfeffer würzen. Mit frischen Korianderblättern garnieren, einrollen und servieren.",
+    "rating": 4
   }
 ]

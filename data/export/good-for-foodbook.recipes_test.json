@@ -1,0 +1,975 @@
+[
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea12"
+    },
+    "category": "salat",
+    "name": "Griechischer Salat",
+    "recipeType": "klassisch",
+    "nutrationType": "vegetarisch",
+    "ingredients": [
+      { "name": "Tomaten", "quantity": 2, "unit": "Stück" },
+      { "name": "Gurken", "quantity": 1, "unit": "Stück" },
+      { "name": "Oliven", "quantity": 50, "unit": "g" },
+      { "name": "Feta-Käse", "quantity": 100, "unit": "g" },
+      { "name": "Rote Zwiebeln", "quantity": 1, "unit": "Stück" },
+      { "name": "Olivenöl", "quantity": 2, "unit": "EL" },
+      { "name": "Salz", "quantity": "nach Geschmack", "unit": "" },
+      { "name": "Pfeffer", "quantity": "nach Geschmack", "unit": "" },
+      { "name": "Oregano", "quantity": 1, "unit": "TL" }
+    ],
+    "preparing": "Alle Zutaten waschen und klein schneiden. In einer Schüssel vermengen und mit Olivenöl, Salz, Pfeffer und Oregano würzen. Gut durchmischen und vor dem Servieren kaltstellen.",
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea13"
+    },
+    "category": "salat",
+    "name": "Gemischter Salat",
+    "recipeType": "gesund",
+    "nutrationType": "vegan",
+    "ingredients": [
+      {
+        "name": "Blattsalat",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Tomaten",
+        "quantity": 2,
+        "unit": "Stück"
+      },
+      {
+        "name": "Gurken",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Paprika",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Rote Zwiebeln",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "Balsamico-Essig",
+        "quantity": 1,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Salat waschen und in eine Schüssel geben. Tomaten, Gurken, Paprika und Zwiebeln in Scheiben schneiden und zum Salat geben. Mit Olivenöl, Balsamico-Essig, Salz und Pfeffer würzen. Gut durchmischen und servieren.",
+    "rating": 5
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea14"
+    },
+    "category": "salat",
+    "name": "Couscous-Salat",
+    "recipeType": "schnell",
+    "nutrationType": "vegetarisch",
+    "ingredients": [
+      {
+        "name": "Couscous",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Tomaten",
+        "quantity": 2,
+        "unit": "Stück"
+      },
+      {
+        "name": "Gurken",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Rote Zwiebeln",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Frische Petersilie",
+        "quantity": 0.5,
+        "unit": "Bund"
+      },
+      {
+        "name": "Zitrone (Saft)",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Couscous nach Packungsanleitung zubereiten und abkühlen lassen. Tomaten, Gurken und Zwiebeln klein schneiden. Petersilie fein hacken. Alle Zutaten vermengen und mit Zitronensaft, Olivenöl, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea15"
+    },
+    "category": "pizza",
+    "name": "Margherita",
+    "recipeType": "klassisch",
+    "nutrationType": "vegetarisch",
+    "ingredients": [
+      {
+        "name": "Pizza Teig",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Tomatensoße",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Mozzarella",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Basilikumblätter",
+        "quantity": 5,
+        "unit": "Stück"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": 1,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Den Pizzateig ausrollen, mit Tomatensauce bestreichen und Mozzarella darüber verteilen. Im vorgeheizten Ofen bei 220°C etwa 10-12 Minuten backen, bis der Käse goldbraun ist. Vor dem Servieren mit frischen Basilikumblättern garnieren.",
+    "rating": 5
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea16"
+    },
+    "category": "pizza",
+    "name": "Vegetarische Pizza mit Paprika",
+    "recipeType": "gesund",
+    "nutrationType": "vegetarisch",
+    "ingredients": [
+      {
+        "name": "Pizzateig",
+        "quantity": "1 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Tomatensauce",
+        "quantity": "200g",
+        "unit": "g"
+      },
+      {
+        "name": "Paprika",
+        "quantity": "1 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Zwiebeln",
+        "quantity": "1 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Oliven",
+        "quantity": "50g",
+        "unit": "g"
+      },
+      {
+        "name": "Mozzarella",
+        "quantity": "125g",
+        "unit": "g"
+      }
+    ],
+    "preparing": "Den Pizzateig mit Tomatensauce bestreichen. Paprika und Zwiebeln in Scheiben schneiden und auf der Pizza verteilen. Oliven und Mozzarella darüber streuen. Im vorgeheizten Ofen bei 220°C etwa 10-12 Minuten backen, bis der Rand goldbraun ist. Vor dem Servieren kurz abkühlen lassen.",
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea17"
+    },
+    "category": "pizza",
+    "name": "Vegetarische Pizza",
+    "recipeType": "gesund",
+    "nutrationType": "vegetarisch",
+    "ingredients": [
+      {
+        "name": "Vollkorn-Pizzateig",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Tomatensauce",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Gemischtes Gemüse (Paprika, Zwiebeln, Pilze)",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Frische Kräuter (Basilikum, Oregano)",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": 1,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Den Pizzateig mit Tomatensauce bestreichen. Das Gemüse auf der Pizza verteilen und mit frischen Kräutern bestreuen. Mit Olivenöl beträufeln und mit Salz und Pfeffer würzen. Im vorgeheizten Ofen bei 200°C etwa 15-20 Minuten backen.",
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea18"
+    },
+    "category": "pizza",
+    "name": "Low Carb Blumenkohl-Pizza",
+    "recipeType": "gesund",
+    "nutrationType": "Low Carb",
+    "ingredients": [
+      {
+        "name": "Blumenkohl",
+        "quantity": 1,
+        "unit": "Kopf"
+      },
+      {
+        "name": "Eier",
+        "quantity": 2,
+        "unit": "Stück"
+      },
+      {
+        "name": "Mozzarella",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatensauce",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Gemüse nach Wahl (Paprika, Zwiebeln, Pilze)",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Den Blumenkohl reiben und in der Mikrowelle garen. Abkühlen lassen und in einem sauberen Geschirrtuch auspressen, um überschüssige Flüssigkeit zu entfernen. Mit Eiern vermengen und zu einem Teig formen. Auf ein Backblech geben und im Ofen bei 200°C etwa 15 Minuten backen. Mit Tomatensauce, Gemüse und Mozzarella belegen und weitere 10-15 Minuten backen, bis der Käse geschmolzen ist.",
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea19"
+    },
+    "category": "pasta",
+    "name": "Spaghetti Carbonara",
+    "recipeType": "klassisch",
+    "nutrationType": "Laktosefrei",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Eier",
+        "quantity": 2,
+        "unit": "Stück"
+      },
+      {
+        "name": "Parmesan",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Pancetta oder Speck",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Knoblauch",
+        "quantity": 2,
+        "unit": "Zehen"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Die Spaghetti al dente kochen. Den Speck in einer Pfanne knusprig braten. Die Eier verquirlen und mit dem geriebenen Parmesan vermengen. Die heißen Spaghetti mit dem Speck vermischen und die Ei-Parmesan-Mischung unterrühren. Mit Salz und Pfeffer abschmecken und servieren.",
+    "rating": 5
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea1a"
+    },
+    "category": "pasta",
+    "name": "Penne all'Arrabbiata",
+    "recipeType": "klassisch",
+    "nutrationType": "vegetarisch",
+    "ingredients": [
+      {
+        "name": "Penne",
+        "quantity": "250g",
+        "unit": "g"
+      },
+      {
+        "name": "Tomaten",
+        "quantity": "400g (Dose)",
+        "unit": "Dose"
+      },
+      {
+        "name": "Knoblauch",
+        "quantity": "2 Zehen",
+        "unit": "Zehen"
+      },
+      {
+        "name": "Chiliflocken",
+        "quantity": "1 TL",
+        "unit": "TL"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": "2 EL",
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Die Penne al dente kochen. In einer Pfanne Olivenöl erhitzen und den Knoblauch darin anschwitzen. Die Tomaten aus der Dose hinzufügen und etwa 10 Minuten köcheln lassen. Mit Salz, Pfeffer und Chiliflocken würzen. Die abgetropften Penne hinzufügen und gut vermengen. Heiß servieren.",
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea1b"
+    },
+    "category": "pasta",
+    "name": "Tomaten-Basilikum-Pasta",
+    "recipeType": "schnell",
+    "nutrationType": "vegetarisch",
+    "ingredients": [
+      {
+        "name": "Penne",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Tomaten",
+        "quantity": 3,
+        "unit": "Stück"
+      },
+      {
+        "name": "Frischer Basilikum",
+        "quantity": 1,
+        "unit": "Bund"
+      },
+      {
+        "name": "Knoblauch",
+        "quantity": 2,
+        "unit": "Zehen"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Parmesan (optional)",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Penne al dente kochen. Tomaten und Basilikum fein hacken, Knoblauch pressen. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Tomaten hinzufügen und kurz braten. Gekochte Penne hinzufügen und mit Salz und Pfeffer würzen. Mit frisch geriebenem Parmesan bestreuen und servieren.",
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea1c"
+    },
+    "category": "pasta",
+    "name": "Ratatouille-Pasta",
+    "recipeType": "gesund",
+    "nutrationType": "vegan",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Zucchini",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Aubergine",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Paprika",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Tomaten",
+        "quantity": 2,
+        "unit": "Stück"
+      },
+      {
+        "name": "Knoblauch",
+        "quantity": 2,
+        "unit": "Zehen"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Italienische Kräuter",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Gemüse in Würfel schneiden. Knoblauch fein hacken. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Gemüse hinzufügen und bissfest braten. Gekochte Spaghetti untermischen und mit Salz, Pfeffer und italienischen Kräutern abschmecken. Sofort servieren.",
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea1d"
+    },
+    "category": "pasta",
+    "name": "Vegane Spaghetti Bolognese",
+    "recipeType": "gesund",
+    "nutrationType": "vegan",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "quantity": "250g",
+        "unit": "g"
+      },
+      {
+        "name": "Linsen",
+        "quantity": "200g",
+        "unit": "g"
+      },
+      {
+        "name": "Tomaten",
+        "quantity": "400g (Dose)",
+        "unit": "Dose"
+      },
+      {
+        "name": "Karotten",
+        "quantity": "2 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Zwiebeln",
+        "quantity": "1 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Knoblauch",
+        "quantity": "2 Zehen",
+        "unit": "Zehen"
+      },
+      {
+        "name": "Tomatenmark",
+        "quantity": "2 EL",
+        "unit": "EL"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": "2 EL",
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Die Spaghetti al dente kochen. In einer Pfanne Olivenöl erhitzen und die gehackten Zwiebeln und Knoblauch darin anschwitzen. Die Karotten fein reiben und hinzufügen. Die Linsen und das Tomatenmark hinzufügen und kurz anbraten. Die Dosentomaten hinzufügen und etwa 20 Minuten köcheln lassen. Mit Salz und Pfeffer abschmecken. Die abgetropften Spaghetti mit der Bolognese-Sauce servieren.",
+    "rating": 5
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea1e"
+    },
+    "category": "lentils",
+    "name": "Linsensuppe",
+    "recipeType": "klassisch",
+    "nutrationType": "vegetarisch",
+    "ingredients": [
+      {
+        "name": "Linsen",
+        "quantity": "200g",
+        "unit": "g"
+      },
+      {
+        "name": "Karotten",
+        "quantity": "2 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Sellerie",
+        "quantity": "1 Stange",
+        "unit": "Stück"
+      },
+      {
+        "name": "Zwiebeln",
+        "quantity": "1 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Knoblauch",
+        "quantity": "2 Zehen",
+        "unit": "Zehen"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "quantity": "1 Liter",
+        "unit": "Liter"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": "2 EL",
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Zwiebeln und Knoblauch fein hacken und in Olivenöl anschwitzen. Karotten und Sellerie in kleine Würfel schneiden und dazugeben. Linsen und Gemüsebrühe hinzufügen und ca. 20 Minuten köcheln lassen, bis die Linsen weich sind. Mit Salz und Pfeffer abschmecken und servieren.",
+    "rating": 5
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea1f"
+    },
+    "category": "lentils",
+    "name": "Linsen-Gemüsepfanne",
+    "recipeType": "gesund",
+    "nutrationType": "vegan",
+    "ingredients": [
+      {
+        "name": "Linsen",
+        "quantity": "250g",
+        "unit": "g"
+      },
+      {
+        "name": "Zucchini",
+        "quantity": "1 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Paprika",
+        "quantity": "1 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Zwiebeln",
+        "quantity": "1 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Knoblauch",
+        "quantity": "2 Zehen",
+        "unit": "Zehen"
+      },
+      {
+        "name": "Tomaten",
+        "quantity": "2 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": "2 EL",
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Zwiebeln und Knoblauch in Olivenöl anbraten. Gemüse klein schneiden und dazugeben. Linsen hinzufügen und ca. 15 Minuten köcheln lassen, bis das Gemüse gar ist. Mit Salz und Pfeffer abschmecken und servieren.",
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea20"
+    },
+    "category": "lentils",
+    "name": "Linsensuppe",
+    "recipeType": "klassisch",
+    "nutrationType": "vegetarisch",
+    "ingredients": [
+      {
+        "name": "Linsen",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Kartoffeln",
+        "quantity": 2,
+        "unit": "Stück"
+      },
+      {
+        "name": "Karotten",
+        "quantity": 2,
+        "unit": "Stück"
+      },
+      {
+        "name": "Zwiebeln",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Knoblauch",
+        "quantity": 2,
+        "unit": "Zehen"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "quantity": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Tomatenmark",
+        "quantity": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Kreuzkümmel",
+        "quantity": 1,
+        "unit": "TL"
+      }
+    ],
+    "preparing": "Zwiebeln und Knoblauch fein hacken. Kartoffeln und Karotten in Würfel schneiden. In einem Topf Olivenöl erhitzen, Zwiebeln und Knoblauch anschwitzen. Kartoffeln und Karotten hinzufügen und kurz anbraten. Linsen, Gemüsebrühe, Tomatenmark und Gewürze hinzufügen. Zum Kochen bringen und etwa 20-25 Minuten köcheln lassen, bis die Linsen und das Gemüse weich sind. Vor dem Servieren abschmecken und heiß servieren.",
+    "rating": 5
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea21"
+    },
+    "category": "lentils",
+    "name": "Linsensalat mit Feta",
+    "recipeType": "schnell",
+    "nutrationType": "vegetarisch",
+    "ingredients": [
+      {
+        "name": "Linsen",
+        "quantity": "200g",
+        "unit": "g"
+      },
+      {
+        "name": "Feta-Käse",
+        "quantity": "100g",
+        "unit": "g"
+      },
+      {
+        "name": "Tomaten",
+        "quantity": "2 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Gurken",
+        "quantity": "1 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Rote Zwiebeln",
+        "quantity": "1 Stück",
+        "unit": "Stück"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": "2 EL",
+        "unit": "EL"
+      },
+      {
+        "name": "Balsamico-Essig",
+        "quantity": "1 EL",
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Linsen kochen und abkühlen lassen. Tomaten, Gurken und Zwiebeln in Würfel schneiden. Feta-Käse zerbröckeln. Alle Zutaten vermengen und mit Olivenöl, Balsamico-Essig, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea22"
+    },
+    "category": "lentils",
+    "name": "Linsen-Curry",
+    "recipeType": "gesund",
+    "nutrationType": "vegetarisch",
+    "ingredients": [
+      {
+        "name": "Rote Linsen",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Kokosmilch",
+        "quantity": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Tomaten",
+        "quantity": 2,
+        "unit": "Stück"
+      },
+      {
+        "name": "Zwiebeln",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Knoblauch",
+        "quantity": 2,
+        "unit": "Zehen"
+      },
+      {
+        "name": "Ingwer",
+        "quantity": 1,
+        "unit": "kleines Stück"
+      },
+      {
+        "name": "Currypaste",
+        "quantity": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "Olivenöl",
+        "quantity": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Korianderblätter",
+        "quantity": "zum Garnieren",
+        "unit": ""
+      }
+    ],
+    "preparing": "Zwiebeln, Knoblauch und Ingwer fein hacken. In einem Topf Olivenöl erhitzen, Zwiebeln, Knoblauch und Ingwer anschwitzen. Currypaste hinzufügen und kurz anbraten. Tomaten in Würfel schneiden und hinzufügen. Rote Linsen und Kokosmilch hinzufügen. Zum Kochen bringen und etwa 15-20 Minuten köcheln lassen, bis die Linsen weich sind. Vor dem Servieren mit Salz und Pfeffer abschmecken und mit frischen Korianderblättern garnieren.",
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "660e7ed74923c1fa2b3cea23"
+    },
+    "category": "lentils",
+    "name": "Linsen-Wraps",
+    "recipeType": "schnell",
+    "nutrationType": "vegan",
+    "ingredients": [
+      {
+        "name": "Tortilla Wraps",
+        "quantity": 4,
+        "unit": "Stück"
+      },
+      {
+        "name": "Braune Linsen (gekocht)",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Avocado",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Tomaten",
+        "quantity": 2,
+        "unit": "Stück"
+      },
+      {
+        "name": "Rote Zwiebel",
+        "quantity": 1,
+        "unit": "Stück"
+      },
+      {
+        "name": "Limettensaft",
+        "quantity": 1,
+        "unit": "EL"
+      },
+      {
+        "name": "Korianderblätter",
+        "quantity": "zum Garnieren",
+        "unit": ""
+      },
+      {
+        "name": "Salz",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      },
+      {
+        "name": "Pfeffer",
+        "quantity": "nach Geschmack",
+        "unit": ""
+      }
+    ],
+    "preparing": "Avocado schälen und in Scheiben schneiden. Tomaten und rote Zwiebel in Scheiben schneiden. Tortilla Wraps nach Packungsanleitung erwärmen. Mit Avocado, Tomaten, roter Zwiebel und gekochten Linsen belegen. Mit Limettensaft beträufeln und mit Salz und Pfeffer würzen. Mit frischen Korianderblättern garnieren, einrollen und servieren.",
+    "rating": 4
+  }
+]

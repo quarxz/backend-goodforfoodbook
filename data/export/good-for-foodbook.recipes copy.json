@@ -9,61 +9,63 @@
     "nutrationType": "vegetarisch",
     "ingredients": [
       {
-        "quantity": 2,
+        "quantity": "2",
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b69"
         }
       },
       {
-        "quantity": 1,
+        "quantity": "1",
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6a"
         }
       },
       {
-        "quantity": 50,
+        "quantity": "50",
+
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6b"
         }
       },
       {
-        "quantity": 100,
+        "quantity": "100",
+
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6c"
         }
       },
       {
-        "quantity": 1,
+        "quantity": "1",
+
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6d"
         }
       },
       {
-        "quantity": 2,
+        "quantity": "2",
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6e"
         }
       },
       {
-        "quantity": 0,
+        "quantity": "nach Geschmack",
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         }
       },
       {
-        "quantity": 0,
+        "quantity": "nach Geschmack",
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         }
       },
       {
-        "quantity": 1,
+        "quantity": "1",
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b71"
         }
       }
     ],
-    "preparing": "Alle Zutaten waschen und klein schneiden. In einer Schüssel vermengen und mit Olivenöl, Salz, Pfeffer und Oregano würzen. Gut durchmischen und vor dem Servieren kaltstellen.",
     "rating": 4
   },
   {
@@ -79,55 +81,55 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b72"
         },
-        "quantity": 150
+        "quantity": "150"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b69"
         },
-        "quantity": 2
+        "quantity": "2"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6a"
         },
-        "quantity": 1
+        "quantity": "1"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b73"
         },
-        "quantity": 1
+        "quantity": "1"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6d"
         },
-        "quantity": 1
+        "quantity": "1"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6e"
         },
-        "quantity": 2
+        "quantity": "2"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b74"
         },
-        "quantity": 1
+        "quantity": "1"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Salat waschen und in eine Schüssel geben. Tomaten, Gurken, Paprika und Zwiebeln in Scheiben schneiden und zum Salat geben. Mit Olivenöl, Balsamico-Essig, Salz und Pfeffer würzen. Gut durchmischen und servieren.",
@@ -188,13 +190,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Couscous nach Packungsanleitung zubereiten und abkühlen lassen. Tomaten, Gurken und Zwiebeln klein schneiden. Petersilie fein hacken. Alle Zutaten vermengen und mit Zitronensaft, Olivenöl, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
@@ -243,13 +245,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Den Pizzateig ausrollen, mit Tomatensauce bestreichen und Mozzarella darüber verteilen. Im vorgeheizten Ofen bei 220°C etwa 10-12 Minuten backen, bis der Käse goldbraun ist. Vor dem Servieren mit frischen Basilikumblättern garnieren.",
@@ -268,13 +270,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b7c"
         },
-        "quantity": 1
+        "quantity": "1 Stück"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b7d"
         },
-        "quantity": 200
+        "quantity": "200g"
       },
       {
         "ingredient": {
@@ -286,13 +288,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b7e"
         },
-        "quantity": 1
+        "quantity": "1 Stück"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6b"
         },
-        "quantity": 50
+        "quantity": "50g"
       },
       {
         "ingredient": {
@@ -323,7 +325,7 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b7d"
         },
-        "quantity": 100
+        "quantity": "100"
       },
       {
         "ingredient": {
@@ -335,7 +337,7 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b81"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
@@ -347,13 +349,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Den Pizzateig mit Tomatensauce bestreichen. Das Gemüse auf der Pizza verteilen und mit frischen Kräutern bestreuen. Mit Olivenöl beträufeln und mit Salz und Pfeffer würzen. Im vorgeheizten Ofen bei 200°C etwa 15-20 Minuten backen.",
@@ -396,19 +398,19 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b84"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Den Blumenkohl reiben und in der Mikrowelle garen. Abkühlen lassen und in einem sauberen Geschirrtuch auspressen, um überschüssige Flüssigkeit zu entfernen. Mit Eiern vermengen und zu einem Teig formen. Auf ein Backblech geben und im Ofen bei 200°C etwa 15 Minuten backen. Mit Tomatensauce, Gemüse und Mozzarella belegen und weitere 10-15 Minuten backen, bis der Käse geschmolzen ist.",
@@ -463,13 +465,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Die Spaghetti al dente kochen. Den Speck in einer Pfanne knusprig braten. Die Eier verquirlen und mit dem geriebenen Parmesan vermengen. Die heißen Spaghetti mit dem Speck vermischen und die Ei-Parmesan-Mischung unterrühren. Mit Salz und Pfeffer abschmecken und servieren.",
@@ -488,13 +490,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b89"
         },
-        "quantity": 250
+        "quantity": "250"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b69"
         },
-        "quantity": 2
+        "quantity": "2"
       },
       {
         "ingredient": {
@@ -506,7 +508,7 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b8a"
         },
-        "quantity": 1
+        "quantity": "1 TL"
       },
       {
         "ingredient": {
@@ -518,13 +520,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Die Penne al dente kochen. In einer Pfanne Olivenöl erhitzen und den Knoblauch darin anschwitzen. Die Tomaten aus der Dose hinzufügen und etwa 10 Minuten köcheln lassen. Mit Salz, Pfeffer und Chiliflocken würzen. Die abgetropften Penne hinzufügen und gut vermengen. Heiß servieren.",
@@ -543,7 +545,7 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b89"
         },
-        "quantity": 250
+        "quantity": "250"
       },
       {
         "ingredient": {
@@ -573,19 +575,19 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b8c"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Penne al dente kochen. Tomaten und Basilikum fein hacken, Knoblauch pressen. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Tomaten hinzufügen und kurz braten. Gekochte Penne hinzufügen und mit Salz und Pfeffer würzen. Mit frisch geriebenem Parmesan bestreuen und servieren.",
@@ -646,19 +648,19 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b8f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Gemüse in Würfel schneiden. Knoblauch fein hacken. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Gemüse hinzufügen und bissfest braten. Gekochte Spaghetti untermischen und mit Salz, Pfeffer und italienischen Kräutern abschmecken. Sofort servieren.",
@@ -677,31 +679,31 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b85"
         },
-        "quantity": 250
+        "quantity": "250"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b90"
         },
-        "quantity": 200
+        "quantity": "200"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b69"
         },
-        "quantity": 1
+        "quantity": "Dose"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b91"
         },
-        "quantity": 2
+        "quantity": "2 Stück"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b7e"
         },
-        "quantity": 1
+        "quantity": "1 Stück"
       },
       {
         "ingredient": {
@@ -713,7 +715,7 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b92"
         },
-        "quantity": 2
+        "quantity": "2 EL"
       },
       {
         "ingredient": {
@@ -725,13 +727,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Die Spaghetti al dente kochen. In einer Pfanne Olivenöl erhitzen und die gehackten Zwiebeln und Knoblauch darin anschwitzen. Die Karotten fein reiben und hinzufügen. Die Linsen und das Tomatenmark hinzufügen und kurz anbraten. Die Dosentomaten hinzufügen und etwa 20 Minuten köcheln lassen. Mit Salz und Pfeffer abschmecken. Die abgetropften Spaghetti mit der Bolognese-Sauce servieren.",
@@ -750,25 +752,25 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b90"
         },
-        "quantity": 200
+        "quantity": "200"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b91"
         },
-        "quantity": 2
+        "quantity": "2 Stück"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b93"
         },
-        "quantity": 1
+        "quantity": "1 Stange"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b7e"
         },
-        "quantity": 1
+        "quantity": "1 Stück"
       },
       {
         "ingredient": {
@@ -780,7 +782,7 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b94"
         },
-        "quantity": 1
+        "quantity": "1 Liter"
       },
       {
         "ingredient": {
@@ -792,13 +794,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Zwiebeln und Knoblauch fein hacken und in Olivenöl anschwitzen. Karotten und Sellerie in kleine Würfel schneiden und dazugeben. Linsen und Gemüsebrühe hinzufügen und ca. 20 Minuten köcheln lassen, bis die Linsen weich sind. Mit Salz und Pfeffer abschmecken und servieren.",
@@ -817,7 +819,7 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b90"
         },
-        "quantity": 250
+        "quantity": "250"
       },
       {
         "ingredient": {
@@ -835,7 +837,7 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b7e"
         },
-        "quantity": 1
+        "quantity": "1 Stück"
       },
       {
         "ingredient": {
@@ -859,13 +861,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Zwiebeln und Knoblauch in Olivenöl anbraten. Gemüse klein schneiden und dazugeben. Linsen hinzufügen und ca. 15 Minuten köcheln lassen, bis das Gemüse gar ist. Mit Salz und Pfeffer abschmecken und servieren.",
@@ -884,7 +886,7 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b90"
         },
-        "quantity": 200
+        "quantity": "200g"
       },
       {
         "ingredient": {
@@ -896,13 +898,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b91"
         },
-        "quantity": 2
+        "quantity": "2 Stück"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b7e"
         },
-        "quantity": 1
+        "quantity": "1 Stück"
       },
       {
         "ingredient": {
@@ -914,13 +916,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b94"
         },
-        "quantity": 1
+        "quantity": "1 Liter"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b92"
         },
-        "quantity": 2
+        "quantity": "2 EL"
       },
       {
         "ingredient": {
@@ -932,13 +934,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
@@ -963,13 +965,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b90"
         },
-        "quantity": 200
+        "quantity": "200g"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6c"
         },
-        "quantity": 100
+        "quantity": "100g"
       },
       {
         "_iingredient": {
@@ -1005,13 +1007,13 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Linsen kochen und abkühlen lassen. Tomaten, Gurken und Zwiebeln in Würfel schneiden. Feta-Käse zerbröckeln. Alle Zutaten vermengen und mit Olivenöl, Balsamico-Essig, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
@@ -1048,7 +1050,7 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b7e"
         },
-        "quantity": 1
+        "quantity": "1 Stück"
       },
       {
         "ingredient": {
@@ -1078,19 +1080,19 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b9b"
         },
-        "quantity": 0
+        "quantity": "zum Garnieren"
       }
     ],
     "preparing": "Zwiebeln, Knoblauch und Ingwer fein hacken. In einem Topf Olivenöl erhitzen, Zwiebeln, Knoblauch und Ingwer anschwitzen. Currypaste hinzufügen und kurz anbraten. Tomaten in Würfel schneiden und hinzufügen. Rote Linsen und Kokosmilch hinzufügen. Zum Kochen bringen und etwa 15-20 Minuten köcheln lassen, bis die Linsen weich sind. Vor dem Servieren mit Salz und Pfeffer abschmecken und mit frischen Korianderblättern garnieren.",
@@ -1145,19 +1147,19 @@
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b9b"
         },
-        "quantity": 0
+        "quantity": "zum Garnieren"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b6f"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       },
       {
         "ingredient": {
           "$oid": "660d5a422d8accaeb6822b70"
         },
-        "quantity": 0
+        "quantity": "nach Geschmack"
       }
     ],
     "preparing": "Avocado schälen und in Scheiben schneiden. Tomaten und rote Zwiebel in Scheiben schneiden. Tortilla Wraps nach Packungsanleitung erwärmen. Mit Avocado, Tomaten, roter Zwiebel und gekochten Linsen belegen. Mit Limettensaft beträufeln und mit Salz und Pfeffer würzen. Mit frischen Korianderblättern garnieren, einrollen und servieren.",

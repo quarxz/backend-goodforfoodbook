@@ -1,65 +1,86 @@
 require("dotenv").config();
 const express = require("express");
-const app = express();
 
-const fs = require("fs");
+const app = express();
+const cors = require("cors");
 
 const port = process.env.PORT || 3000;
+app.use(express.json());
+app.use(cors());
 
-app.get("/", (req, res) => res.type("html").send(html));
+const connect = require("./lib/connect");
+
+const {
+  getUsers,
+  getUser,
+  getUserId,
+  addUserIngredient,
+  deleteUserIngredient,
+  addRecipeToUserRecipeList,
+  getIngredientsFromRecipe,
+  getIngredientsFromStock,
+  deleteRecipeToUserRecipeList,
+} = require("./controller/userController");
+const { getRecipes, getRecipe } = require("./controller/recipeController");
+const {
+  getCategories,
+  getCategory,
+  getTypes,
+  getType,
+  getNutrations,
+  getNutration,
+} = require("./controller/filterController");
+const { getIngredients, getIngredient } = require("./controller/ingredientController");
 
 const server = app.listen(port, () => console.log(`Express app listening on port ${port}!`));
 
 server.keepAliveTimeout = 120 * 1000;
 server.headersTimeout = 120 * 1000;
 
-const html = `
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello from Render!</title>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
-    <script>
-      setTimeout(() => {
-        confetti({
-          particleCount: 100,
-          spread: 70,
-          origin: { y: 0.6 },
-          disableForReducedMotion: true
-        });
-      }, 500);
-    </script>
-    <style>
-      @import url("https://p.typekit.net/p.css?s=1&k=vnd5zic&ht=tk&f=39475.39476.39477.39478.39479.39480.39481.39482&a=18673890&app=typekit&e=css");
-      @font-face {
-        font-family: "neo-sans";
-        src: url("https://use.typekit.net/af/00ac0a/00000000000000003b9b2033/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/00ac0a/00000000000000003b9b2033/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/00ac0a/00000000000000003b9b2033/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-        font-style: normal;
-        font-weight: 700;
-      }
-      html {
-        font-family: neo-sans;
-        font-weight: 700;
-        font-size: calc(62rem / 16);
-      }
-      body {
-        background: white;
-      }
-      section {
-        border-radius: 1em;
-        padding: 1em;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-      }
-    </style>
-  </head>
-  <body>
-    <section>
-      Hello from Render!
-    </section>
-  </body>
-</html>
-`;
+const time = new Date(Date.now()).toLocaleTimeString("de-DE");
+const hour = Number(time.substring(0, 2));
+const greeting = hour <= 9 ? "Good Morning" : hour >= 18 ? "Good evening" : "Hello";
+
+app.get("/", async (req, res) => {
+  await connect();
+  return res.status(200).json({ message: `${greeting}, form backend Good-for-FoodBook !` });
+});
+
+// Users
+app.get("/users", getUsers);
+// ToDo: delete >>get<< User in final Version
+// User
+app.get("/users/:id", getUser);
+app.post("/users/:id", getUser);
+// User - Login
+app.post("/users/:email/login", getUserId);
+// User - Stock
+app.post("/users/:id/addIngredient", addUserIngredient);
+app.post("/users/:id/deleteIngredient", deleteUserIngredient);
+// User - add/delete recipe user recipe list
+app.post("/users/:id/addRecipeToUserRecipeList", addRecipeToUserRecipeList);
+app.post("/users/:id/deleteRecipeToUserRecipeList", deleteRecipeToUserRecipeList);
+// User - Match
+app.get("/users/:id/getIngredientsFromRecipe", getIngredientsFromRecipe);
+app.get("/users/:id/getIngredientsFromStock", getIngredientsFromStock);
+/**
+ * matched ingredients with recipe
+ * add matched ingredients to shopping list and update shoppinglist
+ */
+// app.get("/users/:id/matchedIngredients", matchedUserRecipeIngredients);
+
+// Recipes
+app.get("/recipes", getRecipes);
+app.get("/recipes/:id", getRecipe);
+
+//Filter
+app.get("/categories", getCategories);
+app.get("/categories/:id", getCategory);
+app.get("/types", getTypes);
+app.get("/types/:id", getType);
+app.get("/nutrations", getNutrations);
+app.get("/nutrations/:id", getNutration);
+
+// Ingredients
+app.get("/ingredients", getIngredients);
+app.get("/ingredients/:id", getIngredient);

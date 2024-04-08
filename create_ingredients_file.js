@@ -13,6 +13,8 @@ fs.readFile("./data/import/recipes.json", "utf8", (error, data) => {
 
   let allIngredients = [];
   let allIngredientsObj = [];
+  let allUnits = [];
+  let allUnitsObj = [];
 
   const createIngredientsfromRecipes = () => {
     if (recipes) {
@@ -26,6 +28,10 @@ fs.readFile("./data/import/recipes.json", "utf8", (error, data) => {
               ...allIngredientsObj,
               { name: ingredient.name, unit: ingredient.unit },
             ];
+          }
+          if (!allUnits.includes(ingredient.unit)) {
+            allUnits = [...allUnits, ingredient.unit];
+            allUnitsObj = [...allUnitsObj, { name: ingredient.unit }];
           }
         });
       });
@@ -42,7 +48,18 @@ fs.readFile("./data/import/recipes.json", "utf8", (error, data) => {
       if (err) {
         return console.log(err);
       }
-      console.log("The file was saved!");
+      console.log("The file ingredients.json was saved!");
+    }
+  );
+  fs.writeFile(
+    "./data/import/units.json",
+    JSON.stringify(allUnitsObj, null, 2),
+    "utf8",
+    function (err) {
+      if (err) {
+        return console.log(err);
+      }
+      console.log("The file units.json was saved!");
     }
   );
 });
