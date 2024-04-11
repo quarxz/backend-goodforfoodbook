@@ -1,1166 +1,1254 @@
-[
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea12"
-    },
-    "category": "salat",
-    "name": "Griechischer Salat",
-    "recipeType": "klassisch",
-    "nutrationType": "vegetarisch",
-    "ingredients": [
-      {
-        "quantity": 2,
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b69"
-        }
-      },
-      {
-        "quantity": 1,
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6a"
-        }
-      },
-      {
-        "quantity": 50,
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6b"
-        }
-      },
-      {
-        "quantity": 100,
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6c"
-        }
-      },
-      {
-        "quantity": 1,
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6d"
-        }
-      },
-      {
-        "quantity": 2,
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        }
-      },
-      {
-        "quantity": 0,
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        }
-      },
-      {
-        "quantity": 0,
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        }
-      },
-      {
-        "quantity": 1,
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b71"
-        }
-      }
-    ],
-    "preparing": "Alle Zutaten waschen und klein schneiden. In einer Schüssel vermengen und mit Olivenöl, Salz, Pfeffer und Oregano würzen. Gut durchmischen und vor dem Servieren kaltstellen.",
-    "rating": 4
+[{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea12"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea13"
-    },
-    "category": "salat",
-    "name": "Gemischter Salat",
-    "recipeType": "gesund",
-    "nutrationType": "vegan",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b72"
-        },
-        "quantity": 150
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b69"
-        },
-        "quantity": 2
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6a"
-        },
-        "quantity": 1
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b73"
-        },
-        "quantity": 1
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6d"
-        },
-        "quantity": 1
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b74"
-        },
-        "quantity": 1
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712679402/recipes/griechischer_salat-min_lgsn47.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250,h_188,ar_4:3,g_auto/v1712679402/recipes/griechischer_salat-min_lgsn47.jpg",
+  "category": "salat",
+  "name": "Griechischer Salat",
+  "recipeType": "klassisch",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "quantity": 2,
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
       }
-    ],
-    "preparing": "Salat waschen und in eine Schüssel geben. Tomaten, Gurken, Paprika und Zwiebeln in Scheiben schneiden und zum Salat geben. Mit Olivenöl, Balsamico-Essig, Salz und Pfeffer würzen. Gut durchmischen und servieren.",
-    "rating": 5
+    },
+    {
+      "quantity": 1,
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6a"
+      }
+    },
+    {
+      "quantity": 50,
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6b"
+      }
+    },
+    {
+      "quantity": 100,
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6c"
+      }
+    },
+    {
+      "quantity": 1,
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6d"
+      }
+    },
+    {
+      "quantity": 2,
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
+      }
+    },
+    {
+      "quantity": 0,
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
+      }
+    },
+    {
+      "quantity": 0,
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
+      }
+    },
+    {
+      "quantity": 1,
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b71"
+      }
+    }
+  ],
+  "preparing": "Alle Zutaten waschen und klein schneiden. In einer Schüssel vermengen und mit Olivenöl, Salz, Pfeffer und Oregano würzen. Gut durchmischen und vor dem Servieren kaltstellen.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea13"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea14"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712679399/recipes/gemischter_salat-min_tj7rch.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250,h_188,ar_4:3,g_auto/v1712679399/recipes/gemischter_salat-min_tj7rch.jpg",
+  "category": "salat",
+  "name": "Gemischter Salat",
+  "recipeType": "gesund",
+  "nutrationType": "vegan",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b72"
+      },
+      "quantity": 150
     },
-    "category": "salat",
-    "name": "Couscous-Salat",
-    "recipeType": "schnell",
-    "nutrationType": "vegetarisch",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b75"
-        },
-        "quantity": 200
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b69"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6a"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6a"
-        },
-        "quantity": 1
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b73"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6d"
-        },
-        "quantity": 1
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6d"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b76"
-        },
-        "quantity": 0.5
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b77"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b74"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Couscous nach Packungsanleitung zubereiten und abkühlen lassen. Tomaten, Gurken und Zwiebeln klein schneiden. Petersilie fein hacken. Alle Zutaten vermengen und mit Zitronensaft, Olivenöl, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
-    "rating": 4
+      "quantity": 0
+    }
+  ],
+  "preparing": "Salat waschen und in eine Schüssel geben. Tomaten, Gurken, Paprika und Zwiebeln in Scheiben schneiden und zum Salat geben. Mit Olivenöl, Balsamico-Essig, Salz und Pfeffer würzen. Gut durchmischen und servieren.",
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea14"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea15"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712679397/recipes/couscous_salat-min_i9dbks.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250,h_188,ar_4:3,g_auto/v1712679397/recipes/couscous_salat-min_i9dbks.jpg",
+  "category": "salat",
+  "name": "Couscous-Salat",
+  "recipeType": "schnell",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b75"
+      },
+      "quantity": 200
     },
-    "category": "pizza",
-    "name": "Margherita",
-    "recipeType": "klassisch",
-    "nutrationType": "vegetarisch",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b78"
-        },
-        "quantity": 1
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b79"
-        },
-        "quantity": 100
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6a"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7a"
-        },
-        "quantity": 150
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6d"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7b"
-        },
-        "quantity": 5
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b76"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 0.5
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b77"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Den Pizzateig ausrollen, mit Tomatensauce bestreichen und Mozzarella darüber verteilen. Im vorgeheizten Ofen bei 220°C etwa 10-12 Minuten backen, bis der Käse goldbraun ist. Vor dem Servieren mit frischen Basilikumblättern garnieren.",
-    "rating": 5
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
+      },
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
+      },
+      "quantity": 0
+    }
+  ],
+  "preparing": "Couscous nach Packungsanleitung zubereiten und abkühlen lassen. Tomaten, Gurken und Zwiebeln klein schneiden. Petersilie fein hacken. Alle Zutaten vermengen und mit Zitronensaft, Olivenöl, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea15"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea16"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/v1712675202/samples/breakfast.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680060/recipes/magaritha_pizza-min_zvy398.jpg",
+  "category": "pizza",
+  "name": "Margherita",
+  "recipeType": "klassisch",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b78"
+      },
+      "quantity": 1
     },
-    "category": "pizza",
-    "name": "Vegetarische Pizza mit Paprika",
-    "recipeType": "gesund",
-    "nutrationType": "vegetarisch",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7c"
-        },
-        "quantity": 1
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b79"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7d"
-        },
-        "quantity": 200
+      "quantity": 100
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7a"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b73"
-        },
-        "quantity": 1
+      "quantity": 150
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7b"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7e"
-        },
-        "quantity": 1
+      "quantity": 5
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6b"
-        },
-        "quantity": 50
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7a"
-        },
-        "quantity": 150
-      }
-    ],
-    "preparing": "Den Pizzateig mit Tomatensauce bestreichen. Paprika und Zwiebeln in Scheiben schneiden und auf der Pizza verteilen. Oliven und Mozzarella darüber streuen. Im vorgeheizten Ofen bei 220°C etwa 10-12 Minuten backen, bis der Rand goldbraun ist. Vor dem Servieren kurz abkühlen lassen.",
-    "rating": 4
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
+      },
+      "quantity": 0
+    }
+  ],
+  "preparing": "Den Pizzateig ausrollen, mit Tomatensauce bestreichen und Mozzarella darüber verteilen. Im vorgeheizten Ofen bei 220°C etwa 10-12 Minuten backen, bis der Käse goldbraun ist. Vor dem Servieren mit frischen Basilikumblättern garnieren.",
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea16"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea17"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680060/recipes/magaritha_pizza-min_zvy398.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680062/recipes/paprika_pizza_02-min_frolsb.jpg",
+  "category": "pizza",
+  "name": "Vegetarische Pizza mit Paprika",
+  "recipeType": "gesund",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7c"
+      },
+      "quantity": 1
     },
-    "category": "pizza",
-    "name": "Vegetarische Pizza",
-    "recipeType": "gesund",
-    "nutrationType": "vegetarisch",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7f"
-        },
-        "quantity": 1
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7d"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7d"
-        },
-        "quantity": 100
+      "quantity": 200
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b73"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b80"
-        },
-        "quantity": 200
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b81"
-        },
-        "quantity": 0
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6b"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 1
+      "quantity": 50
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7a"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Den Pizzateig mit Tomatensauce bestreichen. Das Gemüse auf der Pizza verteilen und mit frischen Kräutern bestreuen. Mit Olivenöl beträufeln und mit Salz und Pfeffer würzen. Im vorgeheizten Ofen bei 200°C etwa 15-20 Minuten backen.",
-    "rating": 4
+      "quantity": 150
+    }
+  ],
+  "preparing": "Den Pizzateig mit Tomatensauce bestreichen. Paprika und Zwiebeln in Scheiben schneiden und auf der Pizza verteilen. Oliven und Mozzarella darüber streuen. Im vorgeheizten Ofen bei 220°C etwa 10-12 Minuten backen, bis der Rand goldbraun ist. Vor dem Servieren kurz abkühlen lassen.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea17"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea18"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680075/recipes/vegetarische_pizza-min_xh66vx.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680075/recipes/vegetarische_pizza-min_xh66vx.jpg",
+  "category": "pizza",
+  "name": "Vegetarische Pizza",
+  "recipeType": "gesund",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7f"
+      },
+      "quantity": 1
     },
-    "category": "pizza",
-    "name": "Low Carb Blumenkohl-Pizza",
-    "recipeType": "gesund",
-    "nutrationType": "Low Carb",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b82"
-        },
-        "quantity": 1
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7d"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b83"
-        },
-        "quantity": 2
+      "quantity": 100
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b80"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7a"
-        },
-        "quantity": 100
+      "quantity": 200
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b81"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b79"
-        },
-        "quantity": 100
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b84"
-        },
-        "quantity": 0
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Den Blumenkohl reiben und in der Mikrowelle garen. Abkühlen lassen und in einem sauberen Geschirrtuch auspressen, um überschüssige Flüssigkeit zu entfernen. Mit Eiern vermengen und zu einem Teig formen. Auf ein Backblech geben und im Ofen bei 200°C etwa 15 Minuten backen. Mit Tomatensauce, Gemüse und Mozzarella belegen und weitere 10-15 Minuten backen, bis der Käse geschmolzen ist.",
-    "rating": 4
+      "quantity": 0
+    }
+  ],
+  "preparing": "Den Pizzateig mit Tomatensauce bestreichen. Das Gemüse auf der Pizza verteilen und mit frischen Kräutern bestreuen. Mit Olivenöl beträufeln und mit Salz und Pfeffer würzen. Im vorgeheizten Ofen bei 200°C etwa 15-20 Minuten backen.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea18"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea19"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680079/recipes/blumenkohl_pizza-min_npx2d0.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680079/recipes/blumenkohl_pizza-min_npx2d0.jpg",
+  "category": "pizza",
+  "name": "Low Carb Blumenkohl-Pizza",
+  "recipeType": "gesund",
+  "nutrationType": "Low Carb",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b82"
+      },
+      "quantity": 1
     },
-    "category": "pasta",
-    "name": "Spaghetti Carbonara",
-    "recipeType": "klassisch",
-    "nutrationType": "Laktosefrei",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b85"
-        },
-        "quantity": 200
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b83"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b83"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7a"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b86"
-        },
-        "quantity": 50
+      "quantity": 100
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b79"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b87"
-        },
-        "quantity": 100
+      "quantity": 100
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b84"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b88"
-        },
-        "quantity": 2
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Die Spaghetti al dente kochen. Den Speck in einer Pfanne knusprig braten. Die Eier verquirlen und mit dem geriebenen Parmesan vermengen. Die heißen Spaghetti mit dem Speck vermischen und die Ei-Parmesan-Mischung unterrühren. Mit Salz und Pfeffer abschmecken und servieren.",
-    "rating": 5
+      "quantity": 0
+    }
+  ],
+  "preparing": "Den Blumenkohl reiben und in der Mikrowelle garen. Abkühlen lassen und in einem sauberen Geschirrtuch auspressen, um überschüssige Flüssigkeit zu entfernen. Mit Eiern vermengen und zu einem Teig formen. Auf ein Backblech geben und im Ofen bei 200°C etwa 15 Minuten backen. Mit Tomatensauce, Gemüse und Mozzarella belegen und weitere 10-15 Minuten backen, bis der Käse geschmolzen ist.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea19"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea1a"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680081/recipes/carbonara_spaghetti-min_czfg2n.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680081/recipes/carbonara_spaghetti-min_czfg2n.jpg",
+  "category": "pasta",
+  "name": "Spaghetti Carbonara",
+  "recipeType": "klassisch",
+  "nutrationType": "Laktosefrei",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b85"
+      },
+      "quantity": 200
     },
-    "category": "pasta",
-    "name": "Penne all'Arrabbiata",
-    "recipeType": "klassisch",
-    "nutrationType": "vegetarisch",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b89"
-        },
-        "quantity": 250
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b83"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b69"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b86"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b88"
-        },
-        "quantity": 2
+      "quantity": 50
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b87"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b8a"
-        },
-        "quantity": 1
+      "quantity": 100
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b88"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Die Penne al dente kochen. In einer Pfanne Olivenöl erhitzen und den Knoblauch darin anschwitzen. Die Tomaten aus der Dose hinzufügen und etwa 10 Minuten köcheln lassen. Mit Salz, Pfeffer und Chiliflocken würzen. Die abgetropften Penne hinzufügen und gut vermengen. Heiß servieren.",
-    "rating": 4
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
+      },
+      "quantity": 0
+    }
+  ],
+  "preparing": "Die Spaghetti al dente kochen. Den Speck in einer Pfanne knusprig braten. Die Eier verquirlen und mit dem geriebenen Parmesan vermengen. Die heißen Spaghetti mit dem Speck vermischen und die Ei-Parmesan-Mischung unterrühren. Mit Salz und Pfeffer abschmecken und servieren.",
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea1a"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea1b"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680069/recipes/penne_allarrabbiata-min_uk6f4s.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680069/recipes/penne_allarrabbiata-min_uk6f4s.jpg",
+  "category": "pasta",
+  "name": "Penne all'Arrabbiata",
+  "recipeType": "vegetarisch",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b89"
+      },
+      "quantity": 250
     },
-    "category": "pasta",
-    "name": "Tomaten-Basilikum-Pasta",
-    "recipeType": "schnell",
-    "nutrationType": "vegetarisch",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b89"
-        },
-        "quantity": 250
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b69"
-        },
-        "quantity": 3
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b88"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b8b"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b8a"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b88"
-        },
-        "quantity": 2
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b8c"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Penne al dente kochen. Tomaten und Basilikum fein hacken, Knoblauch pressen. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Tomaten hinzufügen und kurz braten. Gekochte Penne hinzufügen und mit Salz und Pfeffer würzen. Mit frisch geriebenem Parmesan bestreuen und servieren.",
-    "rating": 4
+      "quantity": 0
+    }
+  ],
+  "preparing": "Die Penne al dente kochen. In einer Pfanne Olivenöl erhitzen und den Knoblauch darin anschwitzen. Die Tomaten aus der Dose hinzufügen und etwa 10 Minuten köcheln lassen. Mit Salz, Pfeffer und Chiliflocken würzen. Die abgetropften Penne hinzufügen und gut vermengen. Heiß servieren.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea1b"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea1c"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680065/recipes/pasta_basilikum_02-min_mwmvtu.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680065/recipes/pasta_basilikum_02-min_mwmvtu.jpg",
+  "category": "pasta",
+  "name": "Tomaten-Basilikum-Pasta",
+  "recipeType": "einfach",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b89"
+      },
+      "quantity": 250
     },
-    "category": "pasta",
-    "name": "Ratatouille-Pasta",
-    "recipeType": "gesund",
-    "nutrationType": "vegan",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b85"
-        },
-        "quantity": 200
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b8d"
-        },
-        "quantity": 1
+      "quantity": 3
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b8b"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b8e"
-        },
-        "quantity": 1
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b88"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b73"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b69"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b88"
-        },
-        "quantity": 2
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b8c"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b8f"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Gemüse in Würfel schneiden. Knoblauch fein hacken. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Gemüse hinzufügen und bissfest braten. Gekochte Spaghetti untermischen und mit Salz, Pfeffer und italienischen Kräutern abschmecken. Sofort servieren.",
-    "rating": 4
+      "quantity": 0
+    }
+  ],
+  "preparing": "Penne al dente kochen. Tomaten und Basilikum fein hacken, Knoblauch pressen. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Tomaten hinzufügen und kurz braten. Gekochte Penne hinzufügen und mit Salz und Pfeffer würzen. Mit frisch geriebenem Parmesan bestreuen und servieren.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea1c"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea1d"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680071/recipes/ratatouille-pasta-min_jttqhg.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680071/recipes/ratatouille-pasta-min_jttqhg.jpg",
+  "category": "pasta",
+  "name": "Ratatouille-Pasta",
+  "recipeType": "gesund",
+  "nutrationType": "vegan",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b85"
+      },
+      "quantity": 200
     },
-    "category": "pasta",
-    "name": "Vegane Spaghetti Bolognese",
-    "recipeType": "gesund",
-    "nutrationType": "vegan",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b85"
-        },
-        "quantity": 250
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b8d"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b90"
-        },
-        "quantity": 200
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b8e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b69"
-        },
-        "quantity": 1
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b73"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b91"
-        },
-        "quantity": 2
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7e"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b88"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b88"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b92"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b8f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Die Spaghetti al dente kochen. In einer Pfanne Olivenöl erhitzen und die gehackten Zwiebeln und Knoblauch darin anschwitzen. Die Karotten fein reiben und hinzufügen. Die Linsen und das Tomatenmark hinzufügen und kurz anbraten. Die Dosentomaten hinzufügen und etwa 20 Minuten köcheln lassen. Mit Salz und Pfeffer abschmecken. Die abgetropften Spaghetti mit der Bolognese-Sauce servieren.",
-    "rating": 5
+      "quantity": 0
+    }
+  ],
+  "preparing": "Gemüse in Würfel schneiden. Knoblauch fein hacken. In einer Pfanne Olivenöl erhitzen, Knoblauch anschwitzen, Gemüse hinzufügen und bissfest braten. Gekochte Spaghetti untermischen und mit Salz, Pfeffer und italienischen Kräutern abschmecken. Sofort servieren.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea1d"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea1e"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680075/recipes/spaghetti_bolognese-min_sa6qep.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680075/recipes/spaghetti_bolognese-min_sa6qep.jpg",
+  "category": "pasta",
+  "name": "Vegane Spaghetti Bolognese",
+  "recipeType": "gesund",
+  "nutrationType": "vegan",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b85"
+      },
+      "quantity": 250
     },
-    "category": "lentils",
-    "name": "Linsensuppe",
-    "recipeType": "klassisch",
-    "nutrationType": "vegetarisch",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b90"
-        },
-        "quantity": 200
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b90"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b91"
-        },
-        "quantity": 2
+      "quantity": 200
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b93"
-        },
-        "quantity": 1
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b91"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7e"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b88"
-        },
-        "quantity": 2
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b88"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b94"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b92"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Zwiebeln und Knoblauch fein hacken und in Olivenöl anschwitzen. Karotten und Sellerie in kleine Würfel schneiden und dazugeben. Linsen und Gemüsebrühe hinzufügen und ca. 20 Minuten köcheln lassen, bis die Linsen weich sind. Mit Salz und Pfeffer abschmecken und servieren.",
-    "rating": 5
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
+      },
+      "quantity": 0
+    }
+  ],
+  "preparing": "Die Spaghetti al dente kochen. In einer Pfanne Olivenöl erhitzen und die gehackten Zwiebeln und Knoblauch darin anschwitzen. Die Karotten fein reiben und hinzufügen. Die Linsen und das Tomatenmark hinzufügen und kurz anbraten. Die Dosentomaten hinzufügen und etwa 20 Minuten köcheln lassen. Mit Salz und Pfeffer abschmecken. Die abgetropften Spaghetti mit der Bolognese-Sauce servieren.",
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea1e"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea1f"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680057/recipes/linsen_suppe-min_xn0qpf.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680057/recipes/linsen_suppe-min_xn0qpf.jpg",
+  "category": "lentils",
+  "name": "Linsensuppe",
+  "recipeType": "klassisch",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b90"
+      },
+      "quantity": 200
     },
-    "category": "lentils",
-    "name": "Linsen-Gemüsepfanne",
-    "recipeType": "gesund",
-    "nutrationType": "vegan",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b90"
-        },
-        "quantity": 250
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b91"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b8d"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b93"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b73"
-        },
-        "quantity": 1
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7e"
-        },
-        "quantity": 1
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b88"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b88"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b94"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b69"
-        },
-        "quantity": 2
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Zwiebeln und Knoblauch in Olivenöl anbraten. Gemüse klein schneiden und dazugeben. Linsen hinzufügen und ca. 15 Minuten köcheln lassen, bis das Gemüse gar ist. Mit Salz und Pfeffer abschmecken und servieren.",
-    "rating": 4
+      "quantity": 0
+    }
+  ],
+  "preparing": "Zwiebeln und Knoblauch fein hacken und in Olivenöl anschwitzen. Karotten und Sellerie in kleine Würfel schneiden und dazugeben. Linsen und Gemüsebrühe hinzufügen und ca. 20 Minuten köcheln lassen, bis die Linsen weich sind. Mit Salz und Pfeffer abschmecken und servieren.",
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea1f"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea20"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680052/recipes/linsen_pfanne-min_qg7krv.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680052/recipes/linsen_pfanne-min_qg7krv.jpg",
+  "category": "lentils",
+  "name": "Linsen-Gemüsepfanne",
+  "recipeType": "gesund",
+  "nutrationType": "vegan",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b90"
+      },
+      "quantity": 250
     },
-    "category": "lentils",
-    "name": "Linsensuppe",
-    "recipeType": "klassisch",
-    "nutrationType": "vegetarisch",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b90"
-        },
-        "quantity": 200
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b8d"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b95"
-        },
-        "quantity": 2
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b73"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b91"
-        },
-        "quantity": 2
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7e"
-        },
-        "quantity": 1
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b88"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b88"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b94"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b92"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b96"
-        },
-        "quantity": 1
-      }
-    ],
-    "preparing": "Zwiebeln und Knoblauch fein hacken. Kartoffeln und Karotten in Würfel schneiden. In einem Topf Olivenöl erhitzen, Zwiebeln und Knoblauch anschwitzen. Kartoffeln und Karotten hinzufügen und kurz anbraten. Linsen, Gemüsebrühe, Tomatenmark und Gewürze hinzufügen. Zum Kochen bringen und etwa 20-25 Minuten köcheln lassen, bis die Linsen und das Gemüse weich sind. Vor dem Servieren abschmecken und heiß servieren.",
-    "rating": 5
+      "quantity": 0
+    }
+  ],
+  "preparing": "Zwiebeln und Knoblauch in Olivenöl anbraten. Gemüse klein schneiden und dazugeben. Linsen hinzufügen und ca. 15 Minuten köcheln lassen, bis das Gemüse gar ist. Mit Salz und Pfeffer abschmecken und servieren.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea20"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea21"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680057/recipes/linsen_suppe-min_xn0qpf.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680057/recipes/linsen_suppe-min_xn0qpf.jpg",
+  "category": "lentils",
+  "name": "Linsensuppe mit Kartoffel",
+  "recipeType": "klassisch",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b90"
+      },
+      "quantity": 200
     },
-    "category": "lentils",
-    "name": "Linsensalat mit Feta",
-    "recipeType": "schnell",
-    "nutrationType": "vegetarisch",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b90"
-        },
-        "quantity": 200
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b95"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6c"
-        },
-        "quantity": 100
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b91"
       },
-      {
-        "_iingredient": {
-          "$oid": "660d5a422d8accaeb6822b69"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6a"
-        },
-        "quantity": 1
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b88"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6d"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b94"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b92"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b74"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Linsen kochen und abkühlen lassen. Tomaten, Gurken und Zwiebeln in Würfel schneiden. Feta-Käse zerbröckeln. Alle Zutaten vermengen und mit Olivenöl, Balsamico-Essig, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
-    "rating": 4
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
+      },
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b96"
+      },
+      "quantity": 1
+    }
+  ],
+  "preparing": "Zwiebeln und Knoblauch fein hacken. Kartoffeln und Karotten in Würfel schneiden. In einem Topf Olivenöl erhitzen, Zwiebeln und Knoblauch anschwitzen. Kartoffeln und Karotten hinzufügen und kurz anbraten. Linsen, Gemüsebrühe, Tomatenmark und Gewürze hinzufügen. Zum Kochen bringen und etwa 20-25 Minuten köcheln lassen, bis die Linsen und das Gemüse weich sind. Vor dem Servieren abschmecken und heiß servieren.",
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea21"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea22"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680054/recipes/linsen_salat_feta-min_emd4s3.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680054/recipes/linsen_salat_feta-min_emd4s3.jpg",
+  "category": "lentils",
+  "name": "Linsensalat mit Feta",
+  "recipeType": "schnell",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b90"
+      },
+      "quantity": 200
     },
-    "category": "lentils",
-    "name": "Linsen-Curry",
-    "recipeType": "gesund",
-    "nutrationType": "vegetarisch",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b97"
-        },
-        "quantity": 200
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6c"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b98"
-        },
-        "quantity": 400
+      "quantity": 100
+    },
+    {
+      "_iingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b69"
-        },
-        "quantity": 2
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6a"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b7e"
-        },
-        "quantity": 1
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6d"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b88"
-        },
-        "quantity": 2
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b99"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b74"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b9a"
-        },
-        "quantity": 2
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6e"
-        },
-        "quantity": 2
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b9b"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Zwiebeln, Knoblauch und Ingwer fein hacken. In einem Topf Olivenöl erhitzen, Zwiebeln, Knoblauch und Ingwer anschwitzen. Currypaste hinzufügen und kurz anbraten. Tomaten in Würfel schneiden und hinzufügen. Rote Linsen und Kokosmilch hinzufügen. Zum Kochen bringen und etwa 15-20 Minuten köcheln lassen, bis die Linsen weich sind. Vor dem Servieren mit Salz und Pfeffer abschmecken und mit frischen Korianderblättern garnieren.",
-    "rating": 4
+      "quantity": 0
+    }
+  ],
+  "preparing": "Linsen kochen und abkühlen lassen. Tomaten, Gurken und Zwiebeln in Würfel schneiden. Feta-Käse zerbröckeln. Alle Zutaten vermengen und mit Olivenöl, Balsamico-Essig, Salz und Pfeffer abschmecken. Gut durchmischen und servieren.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea22"
   },
-  {
-    "_id": {
-      "$oid": "660e7ed74923c1fa2b3cea23"
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680051/recipes/linsen_curry-min_sugwjx.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680051/recipes/linsen_curry-min_sugwjx.jpg",
+  "category": "lentils",
+  "name": "Linsen-Curry",
+  "recipeType": "gesund",
+  "nutrationType": "vegetarisch",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b97"
+      },
+      "quantity": 200
     },
-    "category": "lentils",
-    "name": "Linsen-Wraps",
-    "recipeType": "schnell",
-    "nutrationType": "vegan",
-    "ingredients": [
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b9c"
-        },
-        "quantity": 4
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b98"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b9d"
-        },
-        "quantity": 200
+      "quantity": 400
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b9e"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b69"
-        },
-        "quantity": 2
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b88"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6d"
-        },
-        "quantity": 1
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b99"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822ba0"
-        },
-        "quantity": 1
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b9a"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b9b"
-        },
-        "quantity": 0
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b6f"
-        },
-        "quantity": 0
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
       },
-      {
-        "ingredient": {
-          "$oid": "660d5a422d8accaeb6822b70"
-        },
-        "quantity": 0
-      }
-    ],
-    "preparing": "Avocado schälen und in Scheiben schneiden. Tomaten und rote Zwiebel in Scheiben schneiden. Tortilla Wraps nach Packungsanleitung erwärmen. Mit Avocado, Tomaten, roter Zwiebel und gekochten Linsen belegen. Mit Limettensaft beträufeln und mit Salz und Pfeffer würzen. Mit frischen Korianderblättern garnieren, einrollen und servieren.",
-    "rating": 4
-  }
-]
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
+      },
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b9b"
+      },
+      "quantity": 0
+    }
+  ],
+  "preparing": "Zwiebeln, Knoblauch und Ingwer fein hacken. In einem Topf Olivenöl erhitzen, Zwiebeln, Knoblauch und Ingwer anschwitzen. Currypaste hinzufügen und kurz anbraten. Tomaten in Würfel schneiden und hinzufügen. Rote Linsen und Kokosmilch hinzufügen. Zum Kochen bringen und etwa 15-20 Minuten köcheln lassen, bis die Linsen weich sind. Vor dem Servieren mit Salz und Pfeffer abschmecken und mit frischen Korianderblättern garnieren.",
+  "rating": 4
+},
+{
+  "_id": {
+    "$oid": "660e7ed74923c1fa2b3cea23"
+  },
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680058/recipes/linsen_wraps-min_cmiqzk.jpg",
+  "preparationTime": 30,
+  "waitingTime": 15,
+  "persons": 2,
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680058/recipes/linsen_wraps-min_cmiqzk.jpg",
+  "category": "lentils",
+  "name": "Linsen-Wraps",
+  "recipeType": "schnell",
+  "nutrationType": "vegan",
+  "ingredients": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b9c"
+      },
+      "quantity": 4
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b9d"
+      },
+      "quantity": 200
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b9e"
+      },
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
+      },
+      "quantity": 2
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6d"
+      },
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822ba0"
+      },
+      "quantity": 1
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b9b"
+      },
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
+      },
+      "quantity": 0
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b70"
+      },
+      "quantity": 0
+    }
+  ],
+  "preparing": "Avocado schälen und in Scheiben schneiden. Tomaten und rote Zwiebel in Scheiben schneiden. Tortilla Wraps nach Packungsanleitung erwärmen. Mit Avocado, Tomaten, roter Zwiebel und gekochten Linsen belegen. Mit Limettensaft beträufeln und mit Salz und Pfeffer würzen. Mit frischen Korianderblättern garnieren, einrollen und servieren.",
+  "rating": 4
+}]

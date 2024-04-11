@@ -31,4 +31,19 @@ const getRecipe = async (req, res) => {
   }
 };
 
-module.exports = { getRecipes, getRecipe };
+const getRecipesWithCategory = async (req, res) => {
+  try {
+    await connect();
+    const { id } = req.params;
+    const recipe = await Recipe.find({ category: id }).populate("ingredients.ingredient category");
+    if (!recipe) {
+      return res.status(500).json({ message: "There is no Recipe with that Category ID!" });
+    }
+    return res.status(200).json({ recipe, message: "Recipe successfully found!" });
+  } catch (err) {
+    console.log(err);
+    return res.status(500).json({ message: "No recipe found!" });
+  }
+};
+
+module.exports = { getRecipes, getRecipe, getRecipesWithCategory };

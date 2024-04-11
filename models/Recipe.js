@@ -6,7 +6,7 @@ const { Schema } = mongoose;
 
 const recipeSchema = new Schema(
   {
-    category: { type: String, required: false },
+    category: { type: Schema.Types.ObjectId, ref: "Category" },
     name: { type: String, required: false },
     recipeType: { type: String, required: false },
     nutrationType: { type: String, required: false },

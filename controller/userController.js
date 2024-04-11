@@ -34,11 +34,13 @@ const getUserId = async (req, res) => {
     await connect();
     const { email } = req.params;
     const [veryinfectedEmail] = email.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi);
-    const { id, password } = (await User.findOne({ email: veryinfectedEmail })) || { _id: null };
+    const { id, name } = (await User.findOne({ email: veryinfectedEmail })) || {
+      _id: null,
+    };
     if (!id) {
       return res.status(500).json({ id: id, message: "User not found!" });
     }
-    return res.status(500).json({ id, password, message: "User successfully found!" });
+    return res.status(200).json({ id, name, message: "User successfully found!" });
   } catch (err) {
     console.log(err);
     return res.status(500).json({ message: "Not valid email!" });
@@ -285,6 +287,55 @@ const deleteRecipeToUserRecipeList = async (req, res) => {
   }
 };
 
+const checkRecipeIsInUserRecipeList = async (req, res) => {
+  try {
+    await connect();
+    const { id } = req.params;
+    const user = (await User.findOne({ _id: id })) || { _id: null };
+    const { _id: userId } = user;
+    if (userId) {
+      const { recipeObjectId } = req.body;
+      if (recipeObjectId) {
+        if (!user.recipes.length) {
+          return res.status(500).json({ message: "No Recipe in the user recipe list!" });
+        }
+        const { _id: recipeId } = (await Recipe.findOne({ _id: recipeObjectId })) || { _id: null };
+
+        if (recipeId) {
+          let recipesIdFromUserList = [];
+          user.recipes.map(async (recipe) => {
+            recipesIdFromUserList = [...recipesIdFromUserList, recipe._id.toString()];
+          });
+          if (!recipesIdFromUserList.includes(recipeId.toString())) {
+            console.log(recipesIdFromUserList);
+            return res.status(500).json({ message: "Recipe is not in user recipe list!" });
+          }
+
+          user.recipes.map(async (recipe) => {
+            if (recipe._id.equals(recipeId)) {
+              // const userUpdate = await User.findByIdAndUpdate(
+              //   userId,
+              //   { $pull: { recipes: recipeId } },
+              //   { returnNewDocument: true }
+              // );
+              return res.status(200).json({ recipeId, message: "Recipe successfully found!" });
+            }
+          });
+        } else {
+          return res.status(500).json({ message: "Recipe not exits!" });
+        }
+      } else {
+        return res.status(500).json({ message: "Empty ObjectId!" });
+      }
+    } else {
+      return res.status(500).json({ message: "User not found!" });
+    }
+  } catch (err) {
+    console.log(err);
+    return res.status(500).json({ message: "Recipe not found!" });
+  }
+};
+
 const getIngredientsFromRecipe = async (req, res) => {
   try {
     await connect();
@@ -359,4 +410,5 @@ module.exports = {
   deleteRecipeToUserRecipeList,
   getIngredientsFromRecipe,
   getIngredientsFromStock,
+  checkRecipeIsInUserRecipeList,
 };

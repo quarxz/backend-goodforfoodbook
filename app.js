@@ -10,6 +10,15 @@ app.use(cors());
 
 const connect = require("./lib/connect");
 
+const cloudinary = require("cloudinary");
+
+cloudinary.v2.config({
+  cloud_name: "drbwu8myy",
+  api_key: "145885745371125",
+  api_secret: "a3C0R1q2hsw-vyJvH6SPv1zGtqY",
+  secure: true,
+});
+
 const {
   getUsers,
   getUser,
@@ -20,8 +29,9 @@ const {
   getIngredientsFromRecipe,
   getIngredientsFromStock,
   deleteRecipeToUserRecipeList,
+  checkRecipeIsInUserRecipeList,
 } = require("./controller/userController");
-const { getRecipes, getRecipe } = require("./controller/recipeController");
+const { getRecipes, getRecipe, getRecipesWithCategory } = require("./controller/recipeController");
 const {
   getCategories,
   getCategory,
@@ -58,6 +68,7 @@ app.post("/users/:email/login", getUserId);
 app.post("/users/:id/addIngredient", addUserIngredient);
 app.post("/users/:id/deleteIngredient", deleteUserIngredient);
 // User - add/delete recipe user recipe list
+app.post("/users/:id/checkRecipeIsInUserRecipeList", checkRecipeIsInUserRecipeList);
 app.post("/users/:id/addRecipeToUserRecipeList", addRecipeToUserRecipeList);
 app.post("/users/:id/deleteRecipeToUserRecipeList", deleteRecipeToUserRecipeList);
 // User - Match
@@ -72,6 +83,7 @@ app.get("/users/:id/getIngredientsFromStock", getIngredientsFromStock);
 // Recipes
 app.get("/recipes", getRecipes);
 app.get("/recipes/:id", getRecipe);
+app.get("/recipes/:id/category", getRecipesWithCategory);
 
 //Filter
 app.get("/categories", getCategories);
