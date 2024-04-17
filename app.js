@@ -26,12 +26,20 @@ const {
   addUserIngredient,
   deleteUserIngredient,
   addRecipeToUserRecipeList,
-  getIngredientsFromRecipe,
+  getIngredientsFromUserRecipe,
   getIngredientsFromStock,
   deleteRecipeToUserRecipeList,
   checkRecipeIsInUserRecipeList,
+  addIngredientToShoppingList,
+  deleteIngredientToShoppingList,
+  getIngredientsFromShoppingList,
 } = require("./controller/userController");
-const { getRecipes, getRecipe, getRecipesWithCategory } = require("./controller/recipeController");
+const {
+  getRecipes,
+  getRecipe,
+  getRecipesWithCategory,
+  getIngredientsFromRecipe,
+} = require("./controller/recipeController");
 const {
   getCategories,
   getCategory,
@@ -72,18 +80,23 @@ app.post("/users/:id/checkRecipeIsInUserRecipeList", checkRecipeIsInUserRecipeLi
 app.post("/users/:id/addRecipeToUserRecipeList", addRecipeToUserRecipeList);
 app.post("/users/:id/deleteRecipeToUserRecipeList", deleteRecipeToUserRecipeList);
 // User - Match
-app.get("/users/:id/getIngredientsFromRecipe", getIngredientsFromRecipe);
+app.get("/users/:id/getIngredientsFromUserRecipe", getIngredientsFromUserRecipe);
 app.get("/users/:id/getIngredientsFromStock", getIngredientsFromStock);
 /**
  * matched ingredients with recipe
  * add matched ingredients to shopping list and update shoppinglist
  */
 // app.get("/users/:id/matchedIngredients", matchedUserRecipeIngredients);
+// User - ShoppingList
+app.post("/users/:id/addIngredientToSchoppingList", addIngredientToShoppingList);
+app.post("/users/:id/deleteIngredientToSchoppingList", deleteIngredientToShoppingList);
+app.get("/users/:id/getIngredientsFromShoppingList", getIngredientsFromShoppingList);
 
 // Recipes
 app.get("/recipes", getRecipes);
 app.get("/recipes/:id", getRecipe);
 app.get("/recipes/:id/category", getRecipesWithCategory);
+app.get("/recipes/:id/getIngredientsFromRecipe", getIngredientsFromRecipe);
 
 //Filter
 app.get("/categories", getCategories);

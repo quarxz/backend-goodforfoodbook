@@ -336,7 +336,7 @@ const checkRecipeIsInUserRecipeList = async (req, res) => {
   }
 };
 
-const getIngredientsFromRecipe = async (req, res) => {
+const getIngredientsFromUserRecipe = async (req, res) => {
   try {
     await connect();
     const { id } = req.params;
@@ -386,11 +386,152 @@ const getIngredientsFromStock = async (req, res) => {
     const { _id: userId, stock } = user;
 
     if (userId) {
-      /**
-       * get all ingredients from user stock list
-       * or matched ingredients form user stock list
-       */
-      return res.status(500).json({ stock, message: "User not found!" });
+      return res
+        .status(200)
+        .json({ stock, message: "Ingredients from stock successfully loaded!" });
+    } else {
+      return res.status(500).json({ message: "User not found!" });
+    }
+  } catch (err) {
+    console.log(err);
+    return res.status(500).json({ message: "Ingredients not found!" });
+  }
+};
+
+const addIngredientToShoppingList = async (req, res) => {
+  try {
+    await connect();
+    const { id } = req.params;
+
+    const user = (await User.findOne({ _id: id })) || { _id: null };
+    const { _id: userId } = user;
+
+    if (userId) {
+      const { ingredientObjId, quantity } = req.body;
+      if (quantity) {
+        const { _id: ingredientId } = (await Ingredient.findOne({ _id: ingredientObjId })) || {
+          _id: null,
+        };
+        if (ingredientId) {
+          console.log(ingredientObjId, quantity, userId);
+
+          // if ingredient is in List -> update
+          if (user.shoppingList.length) {
+            for (let i = 0; i < user.shoppingList.length; i++) {
+              let el = user.shoppingList[i].ingredient;
+
+              if (el.equals(ingredientId)) {
+                const updateUser = await User.findOneAndUpdate(
+                  { _id: userId },
+                  { $inc: { "shoppingList.$[filter].quantity": +quantity } },
+                  { arrayFilters: [{ "filter.ingredient": ingredientId }] },
+                  { returnNewDocument: true }
+                );
+
+                return res.status(200).json({ message: "Ingredient is updated in shopping list!" });
+              }
+            }
+          }
+          // if ingredient is not in User List -> push
+          const updateUser = await User.findByIdAndUpdate(
+            userId,
+            { $push: { shoppingList: { ingredient: ingredientId, quantity: quantity } } },
+            { returnDocument: "after" }
+          );
+          return res.status(200).json({ updateUser, message: "Ingredient successfully added!" });
+        } else {
+          return res.status(500).json({ message: "Ingredient not exits!" });
+        }
+      } else {
+        return res.status(500).json({ message: "Quantity must be greater than 0!" });
+      }
+    } else {
+      return res.status(500).json({ message: "User not found!" });
+    }
+  } catch (err) {
+    console.log(err);
+    return res.status(500).json({ message: "Ingredient not added!" });
+  }
+};
+
+const deleteIngredientToShoppingList = async (req, res) => {
+  try {
+    await connect();
+    const { id } = req.params;
+
+    const user = (await User.findOne({ _id: id })) || { _id: null };
+    const { _id: userId } = user;
+
+    if (userId) {
+      const { ingredientObjId, quantity } = req.body;
+      if (quantity) {
+        const { _id: ingredientId } = (await Ingredient.findOne({ _id: ingredientObjId })) || {
+          _id: null,
+        };
+        if (ingredientId) {
+          console.log(ingredientObjId, quantity, userId);
+
+          user.shoppingList.map(async (ingredient) => {
+            if (ingredient.ingredient.equals(ingredientId)) {
+              if (ingredient.quantity >= 1) {
+                const updateUserIngredient = await User.findOneAndUpdate(
+                  { _id: userId },
+                  { $inc: { "shoppingList.$[filter].quantity": -quantity } },
+                  { arrayFilters: [{ "filter.ingredient": ingredientId }] },
+                  { returnDocument: true }
+                );
+
+                const { shoppingList } = await User.findOne({ _id: userId });
+                shoppingList.map(async (ingredient) => {
+                  if (ingredient.ingredient.equals(ingredientId)) {
+                    if (ingredient.quantity < 1 || ingredient.quantity === 0) {
+                      const updateUser = await User.findByIdAndUpdate(
+                        userId,
+                        { $pull: { shoppingList: { ingredient: ingredientId } } },
+                        { returnNewDocument: true }
+                      );
+                      console.log("Delete complete", ingredientId);
+                    }
+                  }
+                });
+              }
+              const updatedUser = await User.findOne({ _id: userId }).populate(
+                "recipes shoppingList.ingredient"
+              );
+
+              const { ...rest } = updatedUser._doc;
+              return res.status(200).json({ ...rest, message: "Ingredient successfully deleted!" });
+            }
+          });
+        } else {
+          return res.status(500).json({ message: "Ingredient not exits!" });
+        }
+      } else {
+        return res.status(500).json({ message: "Quantity must be greater than 0!" });
+      }
+    } else {
+      return res.status(500).json({ message: "User not found!" });
+    }
+  } catch (err) {
+    console.log(err);
+    return res.status(500).json({ message: "Ingredient not deleted!" });
+  }
+};
+
+const getIngredientsFromShoppingList = async (req, res) => {
+  try {
+    await connect();
+    const { id } = req.params;
+
+    const user = (await User.findOne({ _id: id }).populate("shoppingList.ingredient")) || {
+      _id: null,
+    };
+    const { _id: userId, shoppingList } = user;
+
+    if (userId) {
+      return res
+        .status(200)
+        .json({ shoppingList, message: "Ingredients from shopping list successfully loaded!" });
     } else {
       return res.status(500).json({ message: "User not found!" });
     }
@@ -408,7 +549,10 @@ module.exports = {
   deleteUserIngredient,
   addRecipeToUserRecipeList,
   deleteRecipeToUserRecipeList,
-  getIngredientsFromRecipe,
+  getIngredientsFromUserRecipe,
   getIngredientsFromStock,
   checkRecipeIsInUserRecipeList,
+  addIngredientToShoppingList,
+  deleteIngredientToShoppingList,
+  getIngredientsFromShoppingList,
 };
