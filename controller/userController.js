@@ -454,7 +454,7 @@ const addIngredientToShoppingList = async (req, res) => {
   }
 };
 
-const deleteIngredientToShoppingList = async (req, res) => {
+const deleteIngredientFromShoppingList = async (req, res) => {
   try {
     await connect();
     const { id } = req.params;
@@ -553,6 +553,6 @@ module.exports = {
   getIngredientsFromStock,
   checkRecipeIsInUserRecipeList,
   addIngredientToShoppingList,
-  deleteIngredientToShoppingList,
+  deleteIngredientFromShoppingList,
   getIngredientsFromShoppingList,
 };

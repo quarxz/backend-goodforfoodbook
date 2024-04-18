@@ -31,7 +31,7 @@ const {
   deleteRecipeToUserRecipeList,
   checkRecipeIsInUserRecipeList,
   addIngredientToShoppingList,
-  deleteIngredientToShoppingList,
+  deleteIngredientFromShoppingList,
   getIngredientsFromShoppingList,
 } = require("./controller/userController");
 const {
@@ -89,7 +89,7 @@ app.get("/users/:id/getIngredientsFromStock", getIngredientsFromStock);
 // app.get("/users/:id/matchedIngredients", matchedUserRecipeIngredients);
 // User - ShoppingList
 app.post("/users/:id/addIngredientToSchoppingList", addIngredientToShoppingList);
-app.post("/users/:id/deleteIngredientToSchoppingList", deleteIngredientToShoppingList);
+app.post("/users/:id/deleteIngredientFromSchoppingList", deleteIngredientFromShoppingList);
 app.get("/users/:id/getIngredientsFromShoppingList", getIngredientsFromShoppingList);
 
 // Recipes
