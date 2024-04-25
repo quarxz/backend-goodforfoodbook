@@ -10,7 +10,7 @@ const userSchema = new Schema(
       firstname: { type: String, required: false },
       lastname: { type: String, required: false },
     },
-    adress: {
+    address: {
       street: { type: String, required: false },
       number: { type: Number, required: false },
       postcode: { type: String, required: false },
@@ -18,6 +18,7 @@ const userSchema = new Schema(
     },
 
     activeMember: { type: Boolean, required: false },
+    colorTheme: { type: String, required: false },
     primaryNutrationType: { type: String, required: false },
 
     recipes: [{ type: Schema.Types.ObjectId, ref: "Recipe" }],

@@ -32,15 +32,29 @@ const getUser = async (req, res) => {
 const getUserId = async (req, res) => {
   try {
     await connect();
-    const { email } = req.params;
-    const [veryinfectedEmail] = email.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi);
-    const { id, name } = (await User.findOne({ email: veryinfectedEmail })) || {
-      _id: null,
-    };
+    const { email: userMail } = req.params;
+    const [veryinfectedEmail] = userMail.match(
+      /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi
+    );
+    const { id, name, address, email, activeMember, colorTheme, primaryNutrationType } =
+      (await User.findOne({
+        email: veryinfectedEmail,
+      })) || {
+        _id: null,
+      };
     if (!id) {
       return res.status(500).json({ id: id, message: "User not found!" });
     }
-    return res.status(200).json({ id, name, message: "User successfully found!" });
+    return res.status(200).json({
+      id,
+      name,
+      address,
+      email,
+      activeMember,
+      colorTheme,
+      primaryNutrationType,
+      message: "User successfully found!",
+    });
   } catch (err) {
     console.log(err);
     return res.status(500).json({ message: "Not valid email!" });

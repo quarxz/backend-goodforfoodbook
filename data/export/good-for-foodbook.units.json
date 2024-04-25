@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822ba7"
+  },
+  "name": "Stück"
+},
+{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822ba8"
+  },
+  "name": "g"
+},
+{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822ba9"
+  },
+  "name": "EL"
+},
+{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822baa"
+  },
+  "name": ""
+},
+{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822bab"
+  },
+  "name": "TL"
+},
+{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822bac"
+  },
+  "name": "Bund"
+},
+{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822bad"
+  },
+  "name": "Kopf"
+},
+{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822bae"
+  },
+  "name": "Zehen"
+},
+{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822baf"
+  },
+  "name": "Dose"
+},
+{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822bb0"
+  },
+  "name": "Liter"
+},
+{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822bb1"
+  },
+  "name": "ml"
+},
+{
+  "_id": {
+    "$oid": "660d70872d8accaeb6822bb2"
+  },
+  "name": "kleines Stück"
+}]

@@ -1,450 +1,448 @@
-[
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b69"
-    },
-    "name": "Tomaten",
-    "unit": "Stück",
-    "category": "gemuese"
+[{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b69"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b6a"
-    },
-    "name": "Gurken",
-    "unit": "Stück",
-    "category": "gemuese"
+  "name": "Tomaten",
+  "unit": "Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b6a"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b6b"
-    },
-    "name": "Oliven",
-    "unit": "g",
-    "category": "obst"
+  "name": "Gurken",
+  "unit": "Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b6b"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b6c"
-    },
-    "name": "Feta-Käse",
-    "unit": "g",
-    "category": "kaese"
+  "name": "Oliven",
+  "unit": "g",
+  "category": "obst"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b6c"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b6d"
-    },
-    "name": "Rote Zwiebeln",
-    "unit": "Stück",
-    "category": "gemuese"
+  "name": "Feta-Käse",
+  "unit": "g",
+  "category": "kaese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b6d"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b6e"
-    },
-    "name": "Olivenöl",
-    "unit": "EL",
-    "category": "oel"
+  "name": "Rote Zwiebeln",
+  "unit": "Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b6e"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b6f"
-    },
-    "name": "Salz",
-    "unit": "nach Geschmack",
-    "category": "gewuerze"
+  "name": "Olivenöl",
+  "unit": "EL",
+  "category": "oel"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b6f"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b70"
-    },
-    "name": "Pfeffer",
-    "unit": "nach Geschmack",
-    "category": "gewuerze"
+  "name": "Salz",
+  "unit": "nach Geschmack",
+  "category": "gewuerze"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b70"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b71"
-    },
-    "name": "Oregano",
-    "unit": "TL",
-    "category": "kraeuter"
+  "name": "Pfeffer",
+  "unit": "nach Geschmack",
+  "category": "gewuerze"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b71"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b72"
-    },
-    "name": "Blattsalat",
-    "unit": "g",
-    "category": "salate"
+  "name": "Oregano",
+  "unit": "TL",
+  "category": "kraeuter"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b72"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b73"
-    },
-    "name": "Paprika",
-    "unit": "Stück",
-    "category": "gemuese"
+  "name": "Blattsalat",
+  "unit": "g",
+  "category": "salate"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b73"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b74"
-    },
-    "name": "Balsamico-Essig",
-    "unit": "EL",
-    "category": "essig"
+  "name": "Paprika",
+  "unit": "Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b74"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b75"
-    },
-    "name": "Couscous",
-    "unit": "g",
-    "category": "getreide"
+  "name": "Balsamico-Essig",
+  "unit": "EL",
+  "category": "essig"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b75"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b76"
-    },
-    "name": "Frische Petersilie",
-    "unit": "Bund",
-    "category": "kraeuter"
+  "name": "Couscous",
+  "unit": "g",
+  "category": "getreide"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b76"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b77"
-    },
-    "name": "Zitrone (Saft)",
-    "unit": "Stück",
-    "category": "obst"
+  "name": "Frische Petersilie",
+  "unit": "Bund",
+  "category": "kraeuter"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b77"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b78"
-    },
-    "name": "Pizza Teig",
-    "unit": "Stück",
-    "category": "teige"
+  "name": "Zitrone (Saft)",
+  "unit": "Stück",
+  "category": "obst"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b78"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b79"
-    },
-    "name": "Tomatensoße",
-    "unit": "g",
-    "category": "saucen"
+  "name": "Pizza Teig",
+  "unit": "Stück",
+  "category": "teige"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b79"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b7a"
-    },
-    "name": "Mozzarella",
-    "unit": "g",
-    "category": "kaese"
+  "name": "Tomatensoße",
+  "unit": "g",
+  "category": "saucen"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b7a"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b7b"
-    },
-    "name": "Basilikumblätter",
-    "unit": "Stück",
-    "category": "kraeuter"
+  "name": "Mozzarella",
+  "unit": "g",
+  "category": "kaese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b7b"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b7c"
-    },
-    "name": "Pizzateig",
-    "unit": "Stück",
-    "category": "teige"
+  "name": "Basilikumblätter",
+  "unit": "Stück",
+  "category": "kraeuter"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b7c"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b7d"
-    },
-    "name": "Tomatensauce",
-    "unit": "g",
-    "category": "saucen"
+  "name": "Pizzateig",
+  "unit": "Stück",
+  "category": "teige"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b7d"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b7e"
-    },
-    "name": "Zwiebeln",
-    "unit": "Stück",
-    "category": "gemuese"
+  "name": "Tomatensauce",
+  "unit": "g",
+  "category": "saucen"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b7e"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b7f"
-    },
-    "name": "Vollkorn-Pizzateig",
-    "unit": "Stück",
-    "category": "teige"
+  "name": "Zwiebeln",
+  "unit": "Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b7f"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b80"
-    },
-    "name": "Gemischtes Gemüse (Paprika, Zwiebeln, Pilze)",
-    "unit": "g",
-    "category": "gemuese"
+  "name": "Vollkorn-Pizzateig",
+  "unit": "Stück",
+  "category": "teige"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b80"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b81"
-    },
-    "name": "Frische Kräuter (Basilikum, Oregano)",
-    "unit": "nach Geschmack",
-    "category": "kraeuter"
+  "name": "Gemischtes Gemüse (Paprika, Zwiebeln, Pilze)",
+  "unit": "g",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b81"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b82"
-    },
-    "name": "Blumenkohl",
-    "unit": "Kopf",
-    "category": "gemuese"
+  "name": "Frische Kräuter (Basilikum, Oregano)",
+  "unit": "nach Geschmack",
+  "category": "kraeuter"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b82"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b83"
-    },
-    "name": "Eier",
-    "unit": "Stück",
-    "category": "eier"
+  "name": "Blumenkohl",
+  "unit": "Kopf",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b83"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b84"
-    },
-    "name": "Gemüse nach Wahl (Paprika, Zwiebeln, Pilze)",
-    "unit": "nach Geschmack",
-    "category": "gemuese"
+  "name": "Eier",
+  "unit": "Stück",
+  "category": "eier"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b84"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b85"
-    },
-    "name": "Spaghetti",
-    "unit": "g",
-    "category": "pasta"
+  "name": "Gemüse nach Wahl (Paprika, Zwiebeln, Pilze)",
+  "unit": "nach Geschmack",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b85"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b86"
-    },
-    "name": "Parmesan",
-    "unit": "g",
-    "category": "kaese"
+  "name": "Spaghetti",
+  "unit": "g",
+  "category": "pasta"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b86"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b87"
-    },
-    "name": "Pancetta oder Speck",
-    "unit": "g",
-    "category": "fleisch"
+  "name": "Parmesan",
+  "unit": "g",
+  "category": "kaese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b87"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b88"
-    },
-    "name": "Knoblauch",
-    "unit": "Zehen",
-    "category": "gemuese"
+  "name": "Pancetta oder Speck",
+  "unit": "g",
+  "category": "fleisch"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b88"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b89"
-    },
-    "name": "Penne",
-    "unit": "g",
-    "category": "pasta"
+  "name": "Knoblauch",
+  "unit": "Zehen",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b89"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b8a"
-    },
-    "name": "Chiliflocken",
-    "unit": "TL",
-    "category": "gewuerze"
+  "name": "Penne",
+  "unit": "g",
+  "category": "pasta"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b8a"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b8b"
-    },
-    "name": "Frischer Basilikum",
-    "unit": "Bund",
-    "category": "kraeuter"
+  "name": "Chiliflocken",
+  "unit": "TL",
+  "category": "gewuerze"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b8b"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b8c"
-    },
-    "name": "Parmesan (optional)",
-    "unit": "nach Geschmack",
-    "category": "kaese"
+  "name": "Frischer Basilikum",
+  "unit": "Bund",
+  "category": "kraeuter"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b8c"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b8d"
-    },
-    "name": "Zucchini",
-    "unit": "Stück",
-    "category": "gemuese"
+  "name": "Parmesan (optional)",
+  "unit": "nach Geschmack",
+  "category": "kaese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b8d"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b8e"
-    },
-    "name": "Aubergine",
-    "unit": "Stück",
-    "category": "gemuese"
+  "name": "Zucchini",
+  "unit": "Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b8e"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b8f"
-    },
-    "name": "Italienische Kräuter",
-    "unit": "nach Geschmack",
-    "category": "kraeuter"
+  "name": "Aubergine",
+  "unit": "Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b8f"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b90"
-    },
-    "name": "Linsen",
-    "unit": "g",
-    "category": "huelsenfruechte"
+  "name": "Italienische Kräuter",
+  "unit": "nach Geschmack",
+  "category": "kraeuter"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b90"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b91"
-    },
-    "name": "Karotten",
-    "unit": "Stück",
-    "category": "gemuese"
+  "name": "Linsen",
+  "unit": "g",
+  "category": "huelsenfruechte"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b91"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b92"
-    },
-    "name": "Tomatenmark",
-    "unit": "EL",
-    "category": "gewuerze"
+  "name": "Karotten",
+  "unit": "Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b92"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b93"
-    },
-    "name": "Sellerie",
-    "unit": "Stück",
-    "category": "gemuese"
+  "name": "Tomatenmark",
+  "unit": "EL",
+  "category": "gewuerze"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b93"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b94"
-    },
-    "name": "Gemüsebrühe",
-    "unit": "Liter",
-    "category": "bruehe"
+  "name": "Sellerie",
+  "unit": "Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b94"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b95"
-    },
-    "name": "Kartoffeln",
-    "unit": "Stück",
-    "category": "gemuese"
+  "name": "Gemüsebrühe",
+  "unit": "Liter",
+  "category": "bruehe"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b95"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b96"
-    },
-    "name": "Kreuzkümmel",
-    "unit": "TL",
-    "category": "gewuerze"
+  "name": "Kartoffeln",
+  "unit": "Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b96"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b97"
-    },
-    "name": "Rote Linsen",
-    "unit": "g",
-    "category": "huelsenfruechte"
+  "name": "Kreuzkümmel",
+  "unit": "TL",
+  "category": "gewuerze"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b97"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b98"
-    },
-    "name": "Kokosmilch",
-    "unit": "ml",
-    "category": "milch"
+  "name": "Rote Linsen",
+  "unit": "g",
+  "category": "huelsenfruechte"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b98"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b99"
-    },
-    "name": "Ingwer",
-    "unit": "kleines Stück",
-    "category": "gemuese"
+  "name": "Kokosmilch",
+  "unit": "ml",
+  "category": "milch"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b99"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b9a"
-    },
-    "name": "Currypaste",
-    "unit": "EL",
-    "category": "gewuerze"
+  "name": "Ingwer",
+  "unit": "kleines Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b9a"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b9b"
-    },
-    "name": "Korianderblätter",
-    "unit": "nach Geschmack",
-    "category": "kraeuter"
+  "name": "Currypaste",
+  "unit": "EL",
+  "category": "gewuerze"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b9b"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b9c"
-    },
-    "name": "Tortilla Wraps",
-    "unit": "Stück",
-    "category": "sonstige"
+  "name": "Korianderblätter",
+  "unit": "nach Geschmack",
+  "category": "kraeuter"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b9c"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b9d"
-    },
-    "name": "Braune Linsen (gekocht)",
-    "unit": "g",
-    "category": "huelsenfruechte"
+  "name": "Tortilla Wraps",
+  "unit": "Stück",
+  "category": "sonstige"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b9d"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b9e"
-    },
-    "name": "Avocado",
-    "unit": "Stück",
-    "category": "obst"
+  "name": "Braune Linsen (gekocht)",
+  "unit": "g",
+  "category": "huelsenfruechte"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b9e"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822b9f"
-    },
-    "name": "Rote Zwiebel",
-    "unit": "Stück",
-    "category": "gemuese"
+  "name": "Avocado",
+  "unit": "Stück",
+  "category": "obst"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822b9f"
   },
-  {
-    "_id": {
-      "$oid": "660d5a422d8accaeb6822ba0"
-    },
-    "name": "Limettensaft",
-    "unit": "EL",
-    "category": "saefte"
-  }
-]
+  "name": "Rote Zwiebel",
+  "unit": "Stück",
+  "category": "gemuese"
+},
+{
+  "_id": {
+    "$oid": "660d5a422d8accaeb6822ba0"
+  },
+  "name": "Limettensaft",
+  "unit": "EL",
+  "category": "saefte"
+}]

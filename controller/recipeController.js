@@ -7,7 +7,7 @@ const connect = require("../lib/connect");
 const getRecipes = async (req, res) => {
   try {
     await connect();
-    const recipes = await Recipe.find().populate("ingredients.ingredient");
+    const recipes = await Recipe.find().populate("ingredients.ingredient category");
     return res.status(200).json({ recipes, message: "Recipes successfully found!" });
   } catch (err) {
     console.log(err);

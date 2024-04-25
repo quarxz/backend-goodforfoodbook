@@ -16,18 +16,209 @@
   },
   "activeMember": true,
   "primaryNutrationType": "flexitarien",
-  "recipes": [],
-  "stock": []
+  "recipes": [
+    {
+      "$oid": "660e7ed74923c1fa2b3cea14"
+    },
+    {
+      "$oid": "660e7ed74923c1fa2b3cea17"
+    },
+    {
+      "$oid": "660e7ed74923c1fa2b3cea1c"
+    },
+    {
+      "$oid": "660e7ed74923c1fa2b3cea21"
+    },
+    {
+      "$oid": "660e7ed74923c1fa2b3cea12"
+    }
+  ],
+  "stock": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6c"
+      },
+      "quantity": 400,
+      "_id": {
+        "$oid": "6624c36e119da262a1d58b71"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6d"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "662633de119da262a1d63d3e"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
+      },
+      "quantity": 5,
+      "_id": {
+        "$oid": "66265ed7119da262a1d69005"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6b"
+      },
+      "quantity": 50,
+      "_id": {
+        "$oid": "6627fa8e8f31b9b26f23e08a"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
+      },
+      "quantity": 2,
+      "_id": {
+        "$oid": "6627fb368f31b9b26f23e3e6"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b75"
+      },
+      "quantity": 6,
+      "_id": {
+        "$oid": "662a55928f31b9b26f2495c9"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6a"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "662a55fa8f31b9b26f24992a"
+      }
+    }
+  ],
+  "shoppingList": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b85"
+      },
+      "quantity": 200,
+      "_id": {
+        "$oid": "662217a5b850f39f731a60d8"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b90"
+      },
+      "quantity": 250,
+      "_id": {
+        "$oid": "66223d45b850f39f731aaab4"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b8b"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "6622b878b850f39f731b6797"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b88"
+      },
+      "quantity": 2,
+      "_id": {
+        "$oid": "6622b87cb850f39f731b67db"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b8c"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "6622b87db850f39f731b6823"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b89"
+      },
+      "quantity": 250,
+      "_id": {
+        "$oid": "6622b87eb850f39f731b686f"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6f"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "6622b881b850f39f731b6913"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b75"
+      },
+      "quantity": 105,
+      "_id": {
+        "$oid": "6623bf93119da262a1d4ada4"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b83"
+      },
+      "quantity": 7,
+      "_id": {
+        "$oid": "6626350a119da262a1d64609"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6e"
+      },
+      "quantity": 2,
+      "_id": {
+        "$oid": "662a3adc8f31b9b26f244d53"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7a"
+      },
+      "quantity": 5,
+      "_id": {
+        "$oid": "662a52188f31b9b26f247f9b"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6a"
+      },
+      "quantity": 5,
+      "_id": {
+        "$oid": "662a56168f31b9b26f249a30"
+      }
+    }
+  ],
+  "colorTheme": "dark"
 },
 {
   "_id": {
     "$oid": "65e5a9f13fd0f135269eabae"
   },
-  "email": "anna@test.com",
+  "email": "issmal@test.com",
   "password": "12345-7",
   "name": {
-    "firstname": "anna",
-    "lastname": "dent"
+    "firstname": "issmal",
+    "lastname": "wat"
   },
   "address": {
     "street": "Die andere Strasse",
@@ -38,7 +229,38 @@
   "activeMember": false,
   "primaryNutrationType": "vegan",
   "recipes": [],
-  "stock": []
+  "stock": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b83"
+      },
+      "quantity": 6,
+      "_id": {
+        "$oid": "66277e2f119da262a1d748e7"
+      }
+    }
+  ],
+  "shoppingList": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "662a57708f31b9b26f249f07"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b7a"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "662a5ca28f31b9b26f24a478"
+      }
+    }
+  ],
+  "colorTheme": "light"
 },
 {
   "_id": {
@@ -59,5 +281,63 @@
   "activeMember": false,
   "primaryNutrationType": "carnivore",
   "recipes": [],
-  "stock": []
+  "stock": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b83"
+      },
+      "quantity": 2,
+      "_id": {
+        "$oid": "66277e99119da262a1d74af6"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b72"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "66277eae119da262a1d74b1c"
+      }
+    }
+  ],
+  "shoppingList": [
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b69"
+      },
+      "quantity": 5,
+      "_id": {
+        "$oid": "66277dea119da262a1d74824"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b6a"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "66277df7119da262a1d7482d"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b83"
+      },
+      "quantity": 3,
+      "_id": {
+        "$oid": "66277e05119da262a1d74839"
+      }
+    },
+    {
+      "ingredient": {
+        "$oid": "660d5a422d8accaeb6822b89"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "6627fc1e8f31b9b26f23e675"
+      }
+    }
+  ],
+  "colorTheme": "light"
 }]

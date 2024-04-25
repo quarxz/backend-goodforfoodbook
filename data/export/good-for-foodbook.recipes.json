@@ -3,11 +3,13 @@
     "$oid": "660e7ed74923c1fa2b3cea12"
   },
   "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712679402/recipes/griechischer_salat-min_lgsn47.jpg",
-  "preparationTime": 30,
-  "waitingTime": 15,
+  "preparationTime": 10,
+  "waitingTime": 0,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250,h_188,ar_4:3,g_auto/v1712679402/recipes/griechischer_salat-min_lgsn47.jpg",
-  "category": "salat",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b24"
+  },
   "name": "Griechischer Salat",
   "recipeType": "klassisch",
   "nutrationType": "vegetarisch",
@@ -75,11 +77,13 @@
     "$oid": "660e7ed74923c1fa2b3cea13"
   },
   "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712679399/recipes/gemischter_salat-min_tj7rch.jpg",
-  "preparationTime": 30,
-  "waitingTime": 15,
+  "preparationTime": 10,
+  "waitingTime": 0,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250,h_188,ar_4:3,g_auto/v1712679399/recipes/gemischter_salat-min_tj7rch.jpg",
-  "category": "salat",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b24"
+  },
   "name": "Gemischter Salat",
   "recipeType": "gesund",
   "nutrationType": "vegan",
@@ -147,11 +151,13 @@
     "$oid": "660e7ed74923c1fa2b3cea14"
   },
   "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712679397/recipes/couscous_salat-min_i9dbks.jpg",
-  "preparationTime": 30,
-  "waitingTime": 15,
+  "preparationTime": 15,
+  "waitingTime": 0,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250,h_188,ar_4:3,g_auto/v1712679397/recipes/couscous_salat-min_i9dbks.jpg",
-  "category": "salat",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b24"
+  },
   "name": "Couscous-Salat",
   "recipeType": "schnell",
   "nutrationType": "vegetarisch",
@@ -218,12 +224,14 @@
   "_id": {
     "$oid": "660e7ed74923c1fa2b3cea15"
   },
-  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/v1712675202/samples/breakfast.jpg",
+  "image": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_700/v1712680060/recipes/magaritha_pizza-min_zvy398.jpg",
   "preparationTime": 30,
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680060/recipes/magaritha_pizza-min_zvy398.jpg",
-  "category": "pizza",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b25"
+  },
   "name": "Margherita",
   "recipeType": "klassisch",
   "nutrationType": "vegetarisch",
@@ -283,7 +291,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680062/recipes/paprika_pizza_02-min_frolsb.jpg",
-  "category": "pizza",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b25"
+  },
   "name": "Vegetarische Pizza mit Paprika",
   "recipeType": "gesund",
   "nutrationType": "vegetarisch",
@@ -337,7 +347,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680075/recipes/vegetarische_pizza-min_xh66vx.jpg",
-  "category": "pizza",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b25"
+  },
   "name": "Vegetarische Pizza",
   "recipeType": "gesund",
   "nutrationType": "vegetarisch",
@@ -397,10 +409,12 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680079/recipes/blumenkohl_pizza-min_npx2d0.jpg",
-  "category": "pizza",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b25"
+  },
   "name": "Low Carb Blumenkohl-Pizza",
   "recipeType": "gesund",
-  "nutrationType": "Low Carb",
+  "nutrationType": "low carb",
   "ingredients": [
     {
       "ingredient": {
@@ -457,7 +471,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680081/recipes/carbonara_spaghetti-min_czfg2n.jpg",
-  "category": "pasta",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b26"
+  },
   "name": "Spaghetti Carbonara",
   "recipeType": "klassisch",
   "nutrationType": "Laktosefrei",
@@ -523,7 +539,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680069/recipes/penne_allarrabbiata-min_uk6f4s.jpg",
-  "category": "pasta",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b26"
+  },
   "name": "Penne all'Arrabbiata",
   "recipeType": "vegetarisch",
   "nutrationType": "vegetarisch",
@@ -583,7 +601,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680065/recipes/pasta_basilikum_02-min_mwmvtu.jpg",
-  "category": "pasta",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b26"
+  },
   "name": "Tomaten-Basilikum-Pasta",
   "recipeType": "einfach",
   "nutrationType": "vegetarisch",
@@ -649,7 +669,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680071/recipes/ratatouille-pasta-min_jttqhg.jpg",
-  "category": "pasta",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b26"
+  },
   "name": "Ratatouille-Pasta",
   "recipeType": "gesund",
   "nutrationType": "vegan",
@@ -727,7 +749,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680075/recipes/spaghetti_bolognese-min_sa6qep.jpg",
-  "category": "pasta",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b26"
+  },
   "name": "Vegane Spaghetti Bolognese",
   "recipeType": "gesund",
   "nutrationType": "vegan",
@@ -805,7 +829,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680057/recipes/linsen_suppe-min_xn0qpf.jpg",
-  "category": "lentils",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b27"
+  },
   "name": "Linsensuppe",
   "recipeType": "klassisch",
   "nutrationType": "vegetarisch",
@@ -877,7 +903,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680052/recipes/linsen_pfanne-min_qg7krv.jpg",
-  "category": "lentils",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b27"
+  },
   "name": "Linsen-Gemüsepfanne",
   "recipeType": "gesund",
   "nutrationType": "vegan",
@@ -949,7 +977,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680057/recipes/linsen_suppe-min_xn0qpf.jpg",
-  "category": "lentils",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b27"
+  },
   "name": "Linsensuppe mit Kartoffel",
   "recipeType": "klassisch",
   "nutrationType": "vegetarisch",
@@ -1032,8 +1062,10 @@
   "preparationTime": 30,
   "waitingTime": 15,
   "persons": 2,
-  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680054/recipes/linsen_salat_feta-min_emd4s3.jpg",
-  "category": "lentils",
+  "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250,h_188,g_auto/v1712680054/recipes/linsen_salat_feta-min_emd4s3.jpg",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b27"
+  },
   "name": "Linsensalat mit Feta",
   "recipeType": "schnell",
   "nutrationType": "vegetarisch",
@@ -1051,10 +1083,10 @@
       "quantity": 100
     },
     {
-      "_iingredient": {
+      "quantity": 2,
+      "ingredient": {
         "$oid": "660d5a422d8accaeb6822b69"
-      },
-      "quantity": 2
+      }
     },
     {
       "ingredient": {
@@ -1105,7 +1137,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680051/recipes/linsen_curry-min_sugwjx.jpg",
-  "category": "lentils",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b27"
+  },
   "name": "Linsen-Curry",
   "recipeType": "gesund",
   "nutrationType": "vegetarisch",
@@ -1189,7 +1223,9 @@
   "waitingTime": 15,
   "persons": 2,
   "thumbnail": "https://res.cloudinary.com/drbwu8myy/image/upload/c_fill,w_250/v1712680058/recipes/linsen_wraps-min_cmiqzk.jpg",
-  "category": "lentils",
+  "category": {
+    "$oid": "660d0a352d8accaeb6822b27"
+  },
   "name": "Linsen-Wraps",
   "recipeType": "schnell",
   "nutrationType": "vegan",
