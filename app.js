@@ -61,7 +61,7 @@ const greeting = hour <= 9 ? "Good Morning" : hour >= 18 ? "Good evening" : "Hel
 
 app.get("/", async (req, res) => {
   await connect();
-  return res.status(200).json({ message: `${greeting}, form backend Good-for-FoodBook !` });
+  return res.status(200).json({ message: `${greeting}, from backend Good-for-FoodBook !` });
 });
 
 // Users
