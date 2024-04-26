@@ -33,6 +33,7 @@ const {
   addIngredientToShoppingList,
   deleteIngredientFromShoppingList,
   getIngredientsFromShoppingList,
+  getRecipesFromUserRecipes,
 } = require("./controller/userController");
 const {
   getRecipes,
@@ -80,6 +81,7 @@ app.post("/users/:id/checkRecipeIsInUserRecipeList", checkRecipeIsInUserRecipeLi
 app.post("/users/:id/addRecipeToUserRecipeList", addRecipeToUserRecipeList);
 app.post("/users/:id/deleteRecipeToUserRecipeList", deleteRecipeToUserRecipeList);
 // User - Match
+app.get("/users/:id/getRecipesFromUserRecipes", getRecipesFromUserRecipes);
 app.get("/users/:id/getIngredientsFromUserRecipe", getIngredientsFromUserRecipe);
 app.get("/users/:id/getIngredientsFromStock", getIngredientsFromStock);
 /**

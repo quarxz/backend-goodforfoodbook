@@ -350,6 +350,38 @@ const checkRecipeIsInUserRecipeList = async (req, res) => {
   }
 };
 
+const getRecipesFromUserRecipes = async (req, res) => {
+  try {
+    await connect();
+    const { id } = req.params;
+
+    const user = (await User.findOne({ _id: id })) || { _id: null };
+    const { _id: userId } = user;
+
+    if (userId) {
+      const recipes = await User.findOne({ _id: userId }).populate("recipes");
+      if (recipes) {
+        if (!recipes) {
+          return res.status(500).json({ message: "No Recipe in the user recipe List!" });
+        }
+        return res.status(200).json({
+          recipes: recipes.recipes,
+          message: "Recipes from user successfully found!",
+        });
+      } else {
+        return res.status(500).json({ message: "Recipe does not exits!" });
+      }
+    } else {
+      return res.status(500).json({ message: "User not found!" });
+    }
+
+    // return res.status(200).json({ message: "Ingredients not found!" });
+  } catch (err) {
+    console.log(err);
+    return res.status(500).json({ message: "Recipes not found!" });
+  }
+};
+
 const getIngredientsFromUserRecipe = async (req, res) => {
   try {
     await connect();
@@ -569,4 +601,5 @@ module.exports = {
   addIngredientToShoppingList,
   deleteIngredientFromShoppingList,
   getIngredientsFromShoppingList,
+  getRecipesFromUserRecipes,
 };
