@@ -103,13 +103,13 @@ const addUserIngredient = async (req, res) => {
           );
           return res.status(200).json({ updateUser, message: "Ingredient successfully added!" });
         } else {
-          return res.status(500).json({ message: "Ingredient not exits!" });
+          return res.status(400).json({ message: "Ingredient not exits!" });
         }
       } else {
-        return res.status(500).json({ message: "Quantity must be greater than 0!" });
+        return res.status(400).json({ message: "Quantity must be greater than 0!" });
       }
     } else {
-      return res.status(500).json({ message: "User not found!" });
+      return res.status(401).json({ message: "User not found!" });
     }
   } catch (err) {
     console.log(err);
@@ -167,13 +167,13 @@ const deleteUserIngredient = async (req, res) => {
             }
           });
         } else {
-          return res.status(500).json({ message: "Ingredient not exits!" });
+          return res.status(400).json({ message: "Ingredient not exits!" });
         }
       } else {
-        return res.status(500).json({ message: "Quantity must be greater than 0!" });
+        return res.status(400).json({ message: "Quantity must be greater than 0!" });
       }
     } else {
-      return res.status(500).json({ message: "User not found!" });
+      return res.status(401).json({ message: "User not found!" });
     }
   } catch (err) {
     console.log(err);
@@ -220,7 +220,7 @@ const addRecipeToUserRecipeList = async (req, res) => {
 
             if (recipesIdFromUserList.includes(recipeId.toString())) {
               console.log(recipesIdFromUserList);
-              return res.status(500).json({ message: "Recipe is still in user recipe list!" });
+              return res.status(409).json({ message: "Recipe is still in user recipe list!" });
             }
 
             const updateUserRecipes = await User.findByIdAndUpdate(
@@ -234,13 +234,13 @@ const addRecipeToUserRecipeList = async (req, res) => {
             });
           }
         } else {
-          return res.status(500).json({ message: "Recipe not exits!" });
+          return res.status(400).json({ message: "Recipe not exits!" });
         }
       } else {
-        return res.status(500).json({ message: "Empty ObjectId!" });
+        return res.status(400).json({ message: "Empty ObjectId!" });
       }
     } else {
-      return res.status(500).json({ message: "User not found!" });
+      return res.status(401).json({ message: "User not found!" });
     }
   } catch (err) {
     console.log(err);
@@ -261,7 +261,7 @@ const deleteRecipeToUserRecipeList = async (req, res) => {
 
       if (recipeObjectId) {
         if (!user.recipes.length) {
-          return res.status(500).json({ message: "No Recipe in the user recipe list!" });
+          return res.status(400).json({ message: "No Recipe in the user recipe list!" });
         }
         const { _id: recipeId } = (await Recipe.findOne({ _id: recipeObjectId })) || { _id: null };
 
@@ -273,7 +273,7 @@ const deleteRecipeToUserRecipeList = async (req, res) => {
             });
             if (!recipesIdFromUserList.includes(recipeId.toString())) {
               console.log(recipesIdFromUserList);
-              return res.status(500).json({ message: "Recipe is not in user recipe list!" });
+              return res.status(400).json({ message: "Recipe is not in user recipe list!" });
             }
             user.recipes.map(async (recipe) => {
               if (recipe._id.equals(recipeId)) {
@@ -287,13 +287,13 @@ const deleteRecipeToUserRecipeList = async (req, res) => {
             });
           }
         } else {
-          return res.status(500).json({ message: "Recipe not exits!" });
+          return res.status(400).json({ message: "Recipe not exits!" });
         }
       } else {
-        return res.status(500).json({ message: "Empty ObjectId!" });
+        return res.status(400).json({ message: "Empty ObjectId!" });
       }
     } else {
-      return res.status(500).json({ message: "User not found!" });
+      return res.status(401).json({ message: "User not found!" });
     }
   } catch (err) {
     console.log(err);
@@ -311,7 +311,7 @@ const checkRecipeIsInUserRecipeList = async (req, res) => {
       const { recipeObjectId } = req.body;
       if (recipeObjectId) {
         if (!user.recipes.length) {
-          return res.status(500).json({ message: "No Recipe in the user recipe list!" });
+          return res.status(400).json({ message: "No Recipe in the user recipe list!" });
         }
         const { _id: recipeId } = (await Recipe.findOne({ _id: recipeObjectId })) || { _id: null };
 
@@ -322,7 +322,7 @@ const checkRecipeIsInUserRecipeList = async (req, res) => {
           });
           if (!recipesIdFromUserList.includes(recipeId.toString())) {
             console.log(recipesIdFromUserList);
-            return res.status(500).json({ message: "Recipe is not in user recipe list!" });
+            return res.status(400).json({ message: "Recipe is not in user recipe list!" });
           }
 
           user.recipes.map(async (recipe) => {
@@ -336,13 +336,13 @@ const checkRecipeIsInUserRecipeList = async (req, res) => {
             }
           });
         } else {
-          return res.status(500).json({ message: "Recipe not exits!" });
+          return res.status(400).json({ message: "Recipe not exits!" });
         }
       } else {
-        return res.status(500).json({ message: "Empty ObjectId!" });
+        return res.status(400).json({ message: "Empty ObjectId!" });
       }
     } else {
-      return res.status(500).json({ message: "User not found!" });
+      return res.status(401).json({ message: "User not found!" });
     }
   } catch (err) {
     console.log(err);
@@ -362,23 +362,23 @@ const getRecipesFromUserRecipes = async (req, res) => {
       const recipes = await User.findOne({ _id: userId }).populate("recipes");
       if (recipes) {
         if (!recipes) {
-          return res.status(500).json({ message: "No Recipe in the user recipe List!" });
+          return res.status(400).json({ message: "No Recipe in the user recipe List!" });
         }
         return res.status(200).json({
           recipes: recipes.recipes,
           message: "Recipes from user successfully found!",
         });
       } else {
-        return res.status(500).json({ message: "Recipe does not exits!" });
+        return res.status(400).json({ message: "Recipe does not exits!" });
       }
     } else {
-      return res.status(500).json({ message: "User not found!" });
+      return res.status(401).json({ message: "User not found!" });
     }
 
     // return res.status(200).json({ message: "Ingredients not found!" });
   } catch (err) {
     console.log(err);
-    return res.status(500).json({ message: "Recipes not found!" });
+    return res.status(500).json({ message: "Recipes from user recipes not found!" });
   }
 };
 
@@ -401,22 +401,20 @@ const getIngredientsFromUserRecipe = async (req, res) => {
         const { _id: recipeId } = recipe;
         if (recipeId) {
           if (!user.recipes.length) {
-            return res.status(500).json({ message: "No Recipe in the user recipe List!" });
+            return res.status(400).json({ message: "No Recipe in the user recipe List!" });
           }
           return res
             .status(200)
             .json({ ingredients: recipe.ingredients, message: "Ingredients successfully found!" });
         } else {
-          return res.status(500).json({ message: "Recipe not exits!" });
+          return res.status(400).json({ message: "Recipe not exits!" });
         }
       } else {
-        return res.status(500).json({ message: "Empty ObjectId!" });
+        return res.status(400).json({ message: "Empty ObjectId!" });
       }
     } else {
-      return res.status(500).json({ message: "User not found!" });
+      return res.status(401).json({ message: "User not found!" });
     }
-
-    // return res.status(200).json({ message: "Ingredients not found!" });
   } catch (err) {
     console.log(err);
     return res.status(500).json({ message: "Ingredients not found!" });
@@ -436,7 +434,7 @@ const getIngredientsFromStock = async (req, res) => {
         .status(200)
         .json({ stock, message: "Ingredients from stock successfully loaded!" });
     } else {
-      return res.status(500).json({ message: "User not found!" });
+      return res.status(401).json({ message: "User not found!" });
     }
   } catch (err) {
     console.log(err);
@@ -486,13 +484,13 @@ const addIngredientToShoppingList = async (req, res) => {
           );
           return res.status(200).json({ updateUser, message: "Ingredient successfully added!" });
         } else {
-          return res.status(500).json({ message: "Ingredient not exits!" });
+          return res.status(400).json({ message: "Ingredient not exits!" });
         }
       } else {
-        return res.status(500).json({ message: "Quantity must be greater than 0!" });
+        return res.status(400).json({ message: "Quantity must be greater than 0!" });
       }
     } else {
-      return res.status(500).json({ message: "User not found!" });
+      return res.status(401).json({ message: "User not found!" });
     }
   } catch (err) {
     console.log(err);
@@ -550,13 +548,13 @@ const deleteIngredientFromShoppingList = async (req, res) => {
             }
           });
         } else {
-          return res.status(500).json({ message: "Ingredient not exits!" });
+          return res.status(400).json({ message: "Ingredient not exits!" });
         }
       } else {
-        return res.status(500).json({ message: "Quantity must be greater than 0!" });
+        return res.status(400).json({ message: "Quantity must be greater than 0!" });
       }
     } else {
-      return res.status(500).json({ message: "User not found!" });
+      return res.status(401).json({ message: "User not found!" });
     }
   } catch (err) {
     console.log(err);
@@ -579,7 +577,7 @@ const getIngredientsFromShoppingList = async (req, res) => {
         .status(200)
         .json({ shoppingList, message: "Ingredients from shopping list successfully loaded!" });
     } else {
-      return res.status(500).json({ message: "User not found!" });
+      return res.status(401).json({ message: "User not found!" });
     }
   } catch (err) {
     console.log(err);

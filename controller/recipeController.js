@@ -22,7 +22,7 @@ const getRecipe = async (req, res) => {
 
     const recipe = await Recipe.findOne({ _id: id }).populate("ingredients.ingredient");
     if (!recipe) {
-      return res.status(500).json({ message: "There is no Recipe with that ID!" });
+      return res.status(400).json({ message: "There is no Recipe with that ID!" });
     }
     return res.status(200).json({ recipe, message: "Recipe successfully found!" });
   } catch (err) {
@@ -37,7 +37,7 @@ const getRecipesWithCategory = async (req, res) => {
     const { id } = req.params;
     const recipe = await Recipe.find({ category: id }).populate("ingredients.ingredient category");
     if (!recipe) {
-      return res.status(500).json({ message: "There is no Recipe with that Category ID!" });
+      return res.status(400).json({ message: "There is no Recipe with that Category ID!" });
     }
     return res.status(200).json({ recipe, message: "Recipe successfully found!" });
   } catch (err) {
@@ -61,10 +61,10 @@ const getIngredientsFromRecipe = async (req, res) => {
           .status(200)
           .json({ ingredients: recipe.ingredients, message: "Ingredients successfully found!" });
       } else {
-        return res.status(500).json({ message: "Recipe not exits!" });
+        return res.status(400).json({ message: "Recipe not exits!" });
       }
     } else {
-      return res.status(500).json({ message: "Empty ObjectId!" });
+      return res.status(400).json({ message: "Empty ObjectId!" });
     }
 
     // return res.status(200).json({ message: "Ingredients not found!" });
